@@ -134,8 +134,8 @@
 					<div class="video-wrapper-inner">
 						<div class="video">
 							<!-- video-->
-		                    <video autoplay="true" preload="none" id="video-default" poster="images/video-banner.png" class="video-js vjs-default-skin" controls="controls">
-		                        <source src="videos/about.mp4" type="video/mp4"  autostart="false"/>
+		                    <video autoplay="true" id="video-default" poster="images/video-banner.png" class="video-js vjs-default-skin" controls="controls">
+		                        <source src="videos/about.mp4" type="video/mp4"/>
 		                    </video>
 						</div>
 					</div>
@@ -410,7 +410,7 @@
 							<div class="row mb-3">
 							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -445,7 +445,7 @@
 							<div class="row mb-3">
 							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -540,8 +540,8 @@
 </body>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/jquery.min.js"></script>
-<script src="js/video/video.min.js"></script>
-<link rel="stylesheet" href="js/video/video-js.min.css">
+<script src="js/video/video.js"></script>
+<link rel="stylesheet" href="js/video/video.css">
 <script src="js/script.js"></script>
 <script src="js/all.min.js"></script>
 <script type="text/javascript" src="js/slick/slick.min.js"></script>

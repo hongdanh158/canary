@@ -11,7 +11,7 @@ $(document).ready(function(){
 });
 var video = videojs("video-default", {
 	"poster": "images/video-banner.png",
-	// "autoplay" : false
+	"autoplay" : false
 });
 
 video.on('ended', function () {
