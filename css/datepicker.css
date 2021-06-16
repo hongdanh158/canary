@@ -1,0 +1,532 @@
+/*datepicker*/
+
+.datepicker {
+    width: 265px;
+    padding: 10px;
+    border-radius: 0.42rem;
+}
+
+.datepicker.datepicker-orient-top {
+    margin-top: 8px;
+}
+
+.datepicker table {
+    width: 100%;
+}
+
+.datepicker td,
+.datepicker th {
+    font-size: 1rem;
+    font-weight: regular;
+    width: 40px;
+    height: 40px;
+    border-radius: 0.42rem;
+}
+
+.datepicker thead th {
+    color: #3F4254;
+}
+
+.datepicker thead th.prev,
+.datepicker thead th.datepicker-switch,
+.datepicker thead th.next {
+    font-weight: 500;
+    color: #3F4254;
+}
+
+.datepicker thead th.prev i,
+.datepicker thead th.datepicker-switch i,
+.datepicker thead th.next i {
+    font-size: 1.2rem;
+    color: #7E8299;
+}
+
+.datepicker thead th.prev i:before,
+.datepicker thead th.datepicker-switch i:before,
+.datepicker thead th.next i:before {
+    line-height: 0;
+    vertical-align: middle;
+}
+
+.datepicker thead th.prev:hover,
+.datepicker thead th.datepicker-switch:hover,
+.datepicker thead th.next:hover {
+    background: #F3F6F9 !important;
+}
+
+.datepicker thead th.dow {
+    color: #3F4254;
+    font-weight: 600;
+}
+
+.datepicker tbody tr>td {
+    width: 35px;
+    height: 35px;
+}
+
+.datepicker tbody tr>td.day {
+    color: #7E8299;
+    font-weight: 400;
+}
+
+.datepicker tbody tr>td.day:hover {
+    background: #F3F6F9;
+    color: #3F4254;
+}
+
+.datepicker tbody tr>td.day.old {
+    color: #7E8299;
+}
+
+.datepicker tbody tr>td.day.new {
+    color: #3F4254;
+}
+
+.datepicker tbody tr>td.day.selected,
+.datepicker tbody tr>td.day.selected:hover,
+.datepicker tbody tr>td.day.active,
+.datepicker tbody tr>td.day.active:hover {
+    background: #23A5A5;
+    color: #ffffff;
+}
+
+.datepicker tbody tr>td.day.today {
+    position: relative;
+    background: rgba(11, 183, 131, 0.12) !important;
+    color: #23A5A5 !important;
+}
+
+.datepicker tbody tr>td.day.today:before {
+    content: '';
+    display: inline-block;
+    border: solid transparent;
+    border-width: 0 0 7px 7px;
+    border-bottom-color: #ffffff;
+    border-top-color: #EBEDF3;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.datepicker tbody tr>td.day.range {
+    background: #F3F6F9;
+}
+
+.datepicker tbody tr>td span.year,
+.datepicker tbody tr>td span.hour,
+.datepicker tbody tr>td span.minute,
+.datepicker tbody tr>td span.month {
+    color: #7E8299;
+}
+
+.datepicker tbody tr>td span.year:hover,
+.datepicker tbody tr>td span.hour:hover,
+.datepicker tbody tr>td span.minute:hover,
+.datepicker tbody tr>td span.month:hover {
+    background: #F3F6F9;
+}
+
+.datepicker tbody tr>td span.year.focused,
+.datepicker tbody tr>td span.year.focused:hover,
+.datepicker tbody tr>td span.year.active:hover,
+.datepicker tbody tr>td span.year.active.focused:hover,
+.datepicker tbody tr>td span.year.active,
+.datepicker tbody tr>td span.hour.focused,
+.datepicker tbody tr>td span.hour.focused:hover,
+.datepicker tbody tr>td span.hour.active:hover,
+.datepicker tbody tr>td span.hour.active.focused:hover,
+.datepicker tbody tr>td span.hour.active,
+.datepicker tbody tr>td span.minute.focused,
+.datepicker tbody tr>td span.minute.focused:hover,
+.datepicker tbody tr>td span.minute.active:hover,
+.datepicker tbody tr>td span.minute.active.focused:hover,
+.datepicker tbody tr>td span.minute.active,
+.datepicker tbody tr>td span.month.focused,
+.datepicker tbody tr>td span.month.focused:hover,
+.datepicker tbody tr>td span.month.active:hover,
+.datepicker tbody tr>td span.month.active.focused:hover,
+.datepicker tbody tr>td span.month.active {
+    background: #23A5A5;
+    color: #ffffff;
+}
+
+.datepicker tfoot tr>th {
+    width: 35px;
+    height: 35px;
+}
+
+.datepicker tfoot tr>th.today,
+.datepicker tfoot tr>th.clear {
+    border-radius: 0.42rem;
+    font-weight: 500;
+}
+
+.datepicker tfoot tr>th.today:hover,
+.datepicker tfoot tr>th.clear:hover {
+    background: #EBEDF3;
+}
+
+.datepicker.datepicker-inline {
+    border: 1px solid #EBEDF3;
+}
+
+.input-daterange .input-group-addon {
+    min-width: 44px;
+}
+
+.input-daterange input {
+    text-align: left;
+}
+
+.input-daterange .input-group-append .input-group-text {
+    border-right: 0;
+}
+
+.daterangepicker {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+    box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+    border-radius: 0.42rem;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    z-index: 98;
+}
+
+.modal-open .daterangepicker {
+    z-index: 1051;
+}
+
+.daterangepicker:after,
+.daterangepicker:before {
+    display: none;
+}
+
+.daterangepicker .ranges ul {
+    padding: 1rem 0;
+    width: 175px;
+}
+
+.daterangepicker .ranges li {
+    padding: 0.7rem 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #7E8299;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.daterangepicker .ranges li:hover,
+.daterangepicker .ranges li.active {
+    background-color: #F3F6F9;
+    color: #23A5A5;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.daterangepicker.show-calendar .ranges {
+    border-right: 1px solid #EBEDF3;
+}
+
+.daterangepicker.show-ranges .drp-calendar.left {
+    border-left: 0;
+}
+
+.daterangepicker.show-calendar .ranges {
+    margin-top: 0;
+}
+
+.daterangepicker .drp-buttons {
+    padding: 1rem 1.75rem;
+    border-top: 1px solid #EBEDF3;
+}
+
+.daterangepicker .drp-buttons .btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.42rem;
+}
+
+.daterangepicker .drp-selected {
+    font-size: 0.9rem;
+}
+
+.daterangepicker .drp-calendar.left,
+.daterangepicker .drp-calendar.right {
+    padding: 1rem 1rem;
+}
+
+.daterangepicker .drp-calendar.left {
+    border-left: 0 !important;
+}
+
+.daterangepicker .drp-calendar th,
+.daterangepicker .drp-calendar td {
+    font-size: 1rem;
+    font-weight: regular;
+    width: 33px;
+    height: 33px;
+}
+
+.daterangepicker .drp-calendar th {
+    font-weight: 500;
+    color: #3F4254;
+}
+
+.daterangepicker .drp-calendar th.month {
+    font-weight: 500;
+    color: #3F4254;
+}
+
+.daterangepicker .drp-calendar th.next span,
+.daterangepicker .drp-calendar th.prev span {
+    border-width: 0 1px 1px 0;
+    border-color: #7E8299;
+}
+
+.daterangepicker .drp-calendar th.next span {
+    margin-right: 1px;
+}
+
+.daterangepicker .drp-calendar th.prev span {
+    margin-left: 1px;
+}
+
+.daterangepicker .drp-calendar td {
+    color: #7E8299;
+}
+
+.daterangepicker .drp-calendar td:hover {
+    background-color: #F3F6F9;
+}
+
+.daterangepicker .drp-calendar td.available.off {
+    color: #B5B5C3;
+}
+
+.daterangepicker .drp-calendar td.active {
+    background-color: #23A5A5 !important;
+    color: #FFFFFF !important;
+    border-radius: 0.42rem;
+}
+
+.daterangepicker .drp-calendar td.active.start-date {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.daterangepicker .drp-calendar td.active.end-date {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.daterangepicker .drp-calendar td.active.start-date.end-date {
+    border-radius: 0.42rem;
+}
+
+.daterangepicker .drp-calendar td.today,
+.daterangepicker .drp-calendar td.today.active {
+    border-radius: 0.42rem;
+    background: rgba(11, 183, 131, 0.12) !important;
+    color: #23A5A5 !important;
+}
+
+.daterangepicker .drp-calendar td.in-range.available:not(.active):not(.off):not(.today) {
+    background-color: #F3F6F9;
+    color: #3F4254;
+}
+
+.daterangepicker select {
+    border-radius: 0.42rem;
+    background: transparent !important;
+    border-color: #E4E6EF !important;
+    color: #3F4254 !important;
+}
+
+.datetimepicker {
+    padding: 10px;
+    left: auto;
+    border-radius: 0.42rem;
+}
+
+.datetimepicker.datetimepicker-orient-top {
+    margin-top: 8px;
+}
+
+.datetimepicker table {
+    width: 100%;
+}
+
+.datetimepicker td,
+.datetimepicker th {
+    font-size: 1rem;
+    width: 33px;
+    height: 33px;
+    font-weight: regular;
+    border-radius: 0.42rem;
+}
+
+.datetimepicker thead th i {
+    font-size: 1.2rem;
+}
+
+.datetimepicker thead th.prev,
+.datetimepicker thead th.switch,
+.datetimepicker thead th.next {
+    color: #3F4254;
+    font-weight: 500;
+    display: table-cell;
+}
+
+.datetimepicker thead th.prev .glyphicon,
+.datetimepicker thead th.switch .glyphicon,
+.datetimepicker thead th.next .glyphicon {
+    color: #7E8299;
+}
+
+.datetimepicker thead th.prev:hover,
+.datetimepicker thead th.switch:hover,
+.datetimepicker thead th.next:hover {
+    background: #F3F6F9 !important;
+}
+
+.datetimepicker thead th.dow {
+    font-weight: 500;
+    color: #3F4254;
+}
+
+.datetimepicker thead th.next > span:before {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "\f356";
+    font-size: 0.7rem;
+}
+
+.datetimepicker thead th.prev>span:before {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "\f355";
+    font-size: 0.7rem;
+}
+
+.datetimepicker tbody tr>td span {
+    color: #7E8299;
+    font-weight: 400;
+}
+
+.datetimepicker tbody tr>td.day {
+    color: #7E8299;
+}
+
+.datetimepicker tbody tr>td.day:hover {
+    background: #F3F6F9;
+}
+
+.datetimepicker tbody tr>td.day.old {
+    color: #7E8299;
+}
+
+.datetimepicker tbody tr>td.day.new {
+    color: #3F4254;
+}
+
+.datetimepicker tbody tr>td.day.selected,
+.datetimepicker tbody tr>td.day.active {
+    background: #23A5A5;
+    color: #ffffff;
+}
+
+.datetimepicker tbody tr>td.day.today {
+    position: relative;
+    background: rgba(11, 183, 131, 0.12) !important;
+    color: #23A5A5 !important;
+}
+
+.datetimepicker tbody tr>td.day.today:before {
+    content: '';
+    display: inline-block;
+    border: solid transparent;
+    border-width: 0 0 7px 7px;
+    border-bottom-color: #ffffff;
+    border-top-color: #EBEDF3;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.datetimepicker tbody tr>td.day.range {
+    background: #F3F6F9;
+}
+
+.datetimepicker tbody tr>td span.year,
+.datetimepicker tbody tr>td span.hour,
+.datetimepicker tbody tr>td span.minute,
+.datetimepicker tbody tr>td span.month {
+    color: #7E8299;
+}
+
+.datetimepicker tbody tr>td span.year.focused,
+.datetimepicker tbody tr>td span.year:hover,
+.datetimepicker tbody tr>td span.hour.focused,
+.datetimepicker tbody tr>td span.hour:hover,
+.datetimepicker tbody tr>td span.minute.focused,
+.datetimepicker tbody tr>td span.minute:hover,
+.datetimepicker tbody tr>td span.month.focused,
+.datetimepicker tbody tr>td span.month:hover {
+    background: #F3F6F9;
+}
+
+.datetimepicker tbody tr>td span.year.active:hover,
+.datetimepicker tbody tr>td span.year.active,
+.datetimepicker tbody tr>td span.hour.active:hover,
+.datetimepicker tbody tr>td span.hour.active,
+.datetimepicker tbody tr>td span.minute.active:hover,
+.datetimepicker tbody tr>td span.minute.active,
+.datetimepicker tbody tr>td span.month.active:hover,
+.datetimepicker tbody tr>td span.month.active {
+    background: #23A5A5;
+    color: #ffffff;
+}
+
+.datetimepicker tfoot tr>th.today,
+.datetimepicker tfoot tr>th.clear {
+    border-radius: 0.42rem;
+    font-weight: 500;
+}
+
+.datetimepicker tfoot tr>th.today:hover,
+.datetimepicker tfoot tr>th.clear:hover {
+    background-color: #F3F6F9;
+}
+
+.datetimepicker.datetimepicker-inline {
+    border: 1px solid #F3F6F9;
+}
+
+.input-daterange .input-group-addon {
+    min-width: 44px;
+}
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, .datetimepicker table tr td.active.disabled:active, .datetimepicker table tr td.active.disabled:hover:active, .datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, .datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled:hover.active {
+    background-color: #FFAA00;
+}
+/*end datepicker*/
