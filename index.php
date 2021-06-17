@@ -81,7 +81,7 @@
 		</div>
 		<div class="title-description">KHÁM & TƯ VẤN MIỄN PHÍ <br> CAM KẾT CHẤT LƯỢNG ĐIỀU TRỊ</div>
 		<div class="line"></div>
-		<div class="block-content container ">
+		<div class="block-content container " style="margin-top: 5rem;">
 			<div class="service-item aign-items-center">
 				<div class="number text-red">
 					<span class="icon icon-ellipse-01"></span>
@@ -248,12 +248,9 @@
 			</div>
 		</div>
 	</section>
-	<section class="promotion-banner ">
+	<section class="promotion-banner">
 		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
+		<div><a href="#"><img src="images/slider/2.png" alt=""></a></div>
 	</section>
 	<section class="block customer-comments">
 		<div class="container block-promotion">
@@ -342,7 +339,7 @@
 							<div class="row mb-3">
 							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -377,7 +374,7 @@
 							<div class="row mb-3">
 							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">

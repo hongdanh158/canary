@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vn">
 <head>
 	<meta charset="UTF-8">
 	<meta content="minimum-scale=1.0, maximum-scale=2.0, width=device-width, user-scalable=yes" name="viewport" />
@@ -12,6 +12,7 @@
 	<link href="css/all.css" rel="stylesheet"> <!--load all styles -->
 	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css"/>
+	<link rel="stylesheet" href="js/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
 	<link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
@@ -63,13 +64,13 @@
 					      	<li><a href="gioi-thieu.php">GIỚI THIỆU</a></li>
 					      	<li><a href="dich-vu.php">DỊCH VỤ</a></li>
 					      	<li><a href="bang-gia.php">BẢNG GIÁ</a></li>
-					      	<li><a href="gioi-thieu.php">CHÍNH SÁCH BẢO HÀNH</a></li>
-					      	<li><a href="gioi-thieu.php">ĐẶT HẸN</a></li>
-					      	<li><a href="gioi-thieu.php">THƯ VIỆN</a></li>
-					      	<li><a href="gioi-thieu.php">HỒ SƠ KHÁCH HÀNG</a></li>
+					      	<li><a href="chinh-sach-bao-hanh.php">CHÍNH SÁCH BẢO HÀNH</a></li>
+					      	<li><a href="dat-hen.php">ĐẶT HẸN</a></li>
+					      	<li><a href="thu-vien.php">THƯ VIỆN</a></li>
+					      	<li><a href="ho-so-khach-hang.php">HỒ SƠ KHÁCH HÀNG</a></li>
 					      	<li><a href="gioi-thieu.php">KIẾN THỨC NHA KHOA</a></li>
-					      	<li><a href="gioi-thieu.php">ƯU ĐÃI</a></li>
-					      	<li><a href="gioi-thieu.php">LIÊN HỆ</a></li>
+					      	<li><a href="uu-dai.php">ƯU ĐÃI</a></li>
+					      	<li><a href="lien-he.php">LIÊN HỆ</a></li>
 					      </ul>
 			    	</div>	
 			    </div>

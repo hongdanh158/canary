@@ -22,6 +22,7 @@
   margin-top: 6px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .vjs-default-skin .vjs-slider-handle:before, .vjs-default-skin .vjs-volume-control .vjs-slider-handle::before, .vjs-default-skin .vjs-play-control:before, .vjs-default-skin.vjs-playing .vjs-play-control:before, .vjs-default-skin .vjs-mute-control:before,

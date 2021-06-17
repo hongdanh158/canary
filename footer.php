@@ -47,6 +47,8 @@
 <script src="js/all.min.js"></script>
 <script type="text/javascript" src="js/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script src="js/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="js/locales/bootstrap-datetimepicker.vn.js" charset="UTF-8"></script>
 <script type="text/javascript" src="js/play-video.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </html>

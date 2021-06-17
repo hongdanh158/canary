@@ -18,36 +18,36 @@
 		<div class="line"></div>
 		<div class="block-content container" style="max-width: 1185px;">
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">01</span>
 				</div>
-				<a href="#" class="service-thumbnail"><img src="images/icon/nha-chu.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Nha Chu</a></h3>
+				<a href="dich-vu-2.php" class="service-thumbnail"><img src="images/icon/nha-chu.png" alt=""></a>
+				<h3 class="service-name"><a href="dich-vu-2.php">Nha Chu</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-blue">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">02</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/tay-trang-rang.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Tẩy trắng răng</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Tẩy trắng răng</a></h3>
 			</div>
 			<div class="service-item aign-items-cente text-center">
-				<div class="number text-orgran">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">03</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/phuc-hoi.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Phục hồi</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Phục hồi</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-primary">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">04</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/phuc-hinh-su.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Phục hình sứ</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Phục hình sứ</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
 				<div class="number">
@@ -55,57 +55,54 @@
 					<span class="text">05</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/ham-thao-lap.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Hàm tháo lắp</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Hàm tháo lắp</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-info">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">06</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/nho-rang-tieu-phau.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Nhổ răng, Tiểu phẫu</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Nhổ răng, Tiểu phẫu</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-success">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">07</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/chinh-nha.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Chỉnh nha</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Chỉnh nha</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">08</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/cay-ghep-implant.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Cấy ghép Implant</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Cấy ghép Implant</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-blue">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">09</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/khop-can.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Khớp cắn</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Khớp cắn</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
+				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">10</span>
 				</div>
 				<a href="#" class="service-thumbnail "><img src="images/icon/dieu-tri-khac.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Điều trị khác</a></h3>
+				<h3 class="service-name"><a href="dich-vu-2.php">Điều trị khác</a></h3>
 			</div>
 		</div>
 		<div class="clear"></div>
 	</section>
 	<section class="promotion-banner">
 		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
+		<div><a href="#"><img src="images/slider/2.png" alt=""></a></div>
 	</section>
 	<section class="block block-appointment container">
 		<div class="d-flex justify-content-center">
@@ -141,7 +138,7 @@
 							<div class="row mb-3">
 							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -176,7 +173,7 @@
 							<div class="row mb-3">
 							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">

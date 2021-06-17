@@ -1,16 +1,28 @@
-$(document).ready(function(){
+$(function() {
 	if($('#appointment-2').length) {
 		$('#appointment-2').datetimepicker({
 			autoclose: true,
-	   		format: 'dd-mm-yyyy h:i'
+	   		format: 'dd-mm-yyyy hh:ii',
 		});
 	}
 	if($('#appointment').length) {
 		$('#appointment').datetimepicker({
 			autoclose: true,
-	   		format: 'dd-mm-yyyy h:i'
+	   		format: 'dd-mm-yyyy hh:ii',
 		});
 	}
+	// if($('#start-date').length) {
+	// 	$('#start-date').datetimepicker({
+	// 		autoclose: true,
+	//    		format: 'dd-mm-yyyy',
+	// 	});
+	// }
+	// if($('#birthday').length) {
+	// 	$('#birthday').datetimepicker({
+	// 		autoclose: true,
+	//    		format: 'dd-mm-yyyy',
+	// 	});
+	// }
 });
 $(function() {
 	if ($('.slider').length) {
@@ -21,6 +33,15 @@ $(function() {
 			adaptiveHeight: true,
 			prevArrow: $('.main-slider-prev'),
 		  	nextArrow: $('.main-slider-next'),
+		});
+	}
+	if ($('.video-slider').length) {
+		$('.video-slider').not('.slick-initialized').slick({
+			autoplay: true,
+			fade : true,
+			adaptiveHeight: true,
+			prevArrow: $('.video-slider-prev'),
+		  	nextArrow: $('.video-slider-next'),
 		});
 	}
 	if ($('.promotion-banner').length) {
@@ -169,6 +190,15 @@ $(function() {
 		  ]
 		});
 	};
+	if ($('.library-slider').length) {
+		$('.library-slider').not('.slick-initialized').slick({
+			dots: true,
+			autoplay: true,
+			infinite: false,
+			arrows: false,
+			speed: 300,
+		});
+	};
 	if ($('.about-campus-slider').length) {
 		$('.about-campus-slider').not('.slick-initialized').slick({
 			autoplay: true,
@@ -177,6 +207,11 @@ $(function() {
 			adaptiveHeight: true,
 			prevArrow: $('.about-campus-slider-prev'),
 		  	nextArrow: $('.about-campus-slider-next'),
+		});
+	}
+	if ($('.datepicker').length) {
+		$('.datepicker').datepicker({
+			format: 'dd-mm-yyyy',
 		});
 	}
 });

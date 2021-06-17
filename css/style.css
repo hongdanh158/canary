@@ -16,16 +16,34 @@ body {
 .btn-outline-primary {
    border: 1px solid #23A5A5;
    color: #333333;
+   font-weight: bold;
 }
 .btn-outline-primary:hover {
     border: 1px solid #23A5A5;
     background-color: #23A5A5;
+}
+.btn-hover-secondary:hover {
+    border: 1px solid #ffaa00;
+    background-color: #ffaa00;
 }
 .container {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.background-grey {
+    background: #F2F2F2;
+}
+.background-light-primary {
+    background: #F3FFFD;
+}
+.text-white {
+    color: #ffffff !important;
+}
+.form-control:focus {
+    border-color: #23a5a5;
+    box-shadow: none;
 }
 strong {
     font-weight: 700;
@@ -50,6 +68,9 @@ button:hover {
 }
 a i {
     vertical-align: 0;
+}
+.required {
+    color: #FFAA00;
 }
 .clear {
   clear: both;
@@ -378,7 +399,7 @@ a i {
     border-bottom: 0;
     width: 70%;
     height: 0px;
-    border: 2px solid #333333;
+    border-bottom: 2px solid #333333;
 }
 .highlight {
     color: #FFAA00;
@@ -418,12 +439,14 @@ a i {
     background: #F3FFFD;
 }
 .title-description {
+    max-width: 850px;
     font-weight: bold;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 2;
     text-align: center;
     color: #333333;
     margin-bottom: 3rem;
+    margin: 0 auto;
 }
 .service-item {
     float: left;
@@ -456,6 +479,16 @@ a i {
 }
 .service-thumbnail img {
     width: 100%;
+    filter: grayscale(100%);
+}
+.service-item:hover .number, .service-item:hover  .number .icon {
+    color: #f80917 !important;
+}
+.service-item:hover .service-thumbnail img {
+    filter: grayscale(0);
+}
+.service-item:hover .service-thumbnail img {
+    filter: grayscale(0);
 }
 .service-name {
     font-weight: bold;
@@ -582,6 +615,7 @@ a i {
     position: absolute;
     bottom: 2rem;
     text-align: center;
+    padding-left: 0;
 }
 .block-no-padding {
     padding: 0 !important;
@@ -649,6 +683,7 @@ a i {
     border: 1px solid #FFAA00;
     border-top: none;
     padding: 2rem;
+    background: #fff;
 }
 .block-partner  {
     background: #F3FFFD;
@@ -845,15 +880,360 @@ a i {
     width: 100%;
 }
 
-.background-grey {
-    background: #F2F2F2;
-}
 .block-service-page img {
     width: 100%;
 }
 .block-service-page {
     padding: 0;
 }
-.list-service .service {
-    width: ;
+.block-price .price-item {
+    padding: 1rem;
+}
+.block-price .price-item .price-thumbnail {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    padding: 1rem;
+}
+.block-price .price-item .price-box {
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    -webkit-transition: ưa .25s ease-in-out;
+       -moz-transition: ưa .25s ease-in-out;
+        -ms-transition: ưa .25s ease-in-out;
+         -o-transition: ưa .25s ease-in-out;
+            transition: ưa .25s ease-in-out;
+}
+.block-price .price-item .price-name {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.block-price .price-item .price-name a {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333333;
+}
+.block-price .price-item:hover .price-name a {
+    color: #ffaa00;
+}
+.block-price .price-item:hover .price-box{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16)
+}
+.block-price .price-item .price-number {
+    font-weight: bold;
+    color: #23A5A5;
+}
+.block-service-article {
+    margin-top: 4rem;
+}
+.block-service-article .container {
+    max-width: 1155px;
+    position: relative;
+}
+.block-service-article-title {
+    position: relative;
+}
+.block-service-article-title:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    border-bottom: 2px solid #FFAA00;
+    top: calc(50% - 1px);
+    left: 0;
+}
+.block-service-article-title span {
+    position: absolute;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 40px;
+    background: #F3FFFD;
+    color: #333333;
+    z-index: 9999;
+    top: -2.5rem;
+}
+.block-service-article-list {
+    padding-top: 6rem;
+}
+.block-service-article-item {
+    border-bottom: 2px solid #23A5A5;
+    padding: 3rem 0;
+}
+.block-service-article-item:first-child {
+    padding-top: 0;
+}
+.block-service-article-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.block-service-article-item .right {
+    padding-left: 1.5rem;
+}
+.block-service-article-item .article-title a {
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.block-service-article-item .article-title:hover a {
+    color: #23A5A5;
+}
+.block-service-article-item .article-title .number {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    font-size: 40px;
+    vertical-align: -7px;
+    padding-right: 0.5rem;
+}
+.block-service-article-item .article-description {
+    color: #979797;
+    font-size: 0.9rem;
+   
+}
+.block-service-article-item .article-description li {
+     line-height: 2;
+}
+.block-policy .block-content {
+    margin-bottom: 0rem;
+}
+.block-policy  div {
+    margin-bottom: 0;
+}
+.block-policy .doctor-name  {
+    margin: 5rem 0 3rem 0;
+}
+.block-doctor.block-policy .thumbnail img {
+    position: relative;
+}
+.block-policy .logo {
+    margin-top: 6rem;
+}
+.block-policy .logo a {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    display: inline;
+    width: 40px;
+    vertical-align: -5px;
+}
+.block-policy .logo a img {
+    display: block;
+    width: 100%;
+}
+.block-policy .logo .logo-text a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.block-policy-detail  .accordion-item {
+    border:  0;
+    border-radius: 0;
+}
+.block-policy-detail .accordion-item{
+    border-bottom: 1px solid #23A5A5;
+}
+.block-policy-detail .accordion-button {
+    background: transparent;
+    box-shadow: none;
+    padding: 2rem 1rem;
+    color: #979797;
+    font-weight: bold;
+}
+.block-policy-detail .accordion-item:last-of-type {
+    border-bottom:  0;
+}
+.block-policy-detail .accordion-button::after {
+    background:  none;
+    content: "\f0de"; /* FontAwesome Unicode */
+    font-size: 0.9rem;
+    font-family: "Font Awesome 5 Pro";
+}
+.block-policy-detail  .accordion-button:not(.collapsed)::after {
+    content: "\f0d7"; /* FontAwesome Unicode */
+    background:  none;
+    transform: rotate(0);
+}
+.block-policy-detail .accordion-body {
+    padding: 2rem 15px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.block-appointment .tab-content {
+    background: #fff;
+}
+.customer-information-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333333;
+}
+.customer-id {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333333;
+}
+.customer-information-conent {
+    border: 2px solid #23A5A5;
+}
+.customer-information-conent .header-title {
+    margin: 3rem 0;
+    display: block;
+    font-size: 1.6rem;
+}
+.customer-information-conent form {
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+.customer-information-conent label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.customer-information-conent .header-form {
+    padding: 2rem 4rem;
+    border-bottom: 1px solid #23A5A5;
+}
+.customer-information-conent .header-form .logo {
+    position: relative;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.customer-information-conent .header-form .logo .imgage {
+    width: 59px;
+    margin: 0 auto;
+    display: block;
+}
+.customer-information-conent .header-form.logo a img {
+    display: block;
+    width: 100%;
+}
+.customer-information-conent .header-form .logo h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+.customer-information-conent .header-form .logo .since {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-check-inline:last-of-type {
+    margin-right: 0;
+}
+.list-contact {
+    margin-top: 5rem;
+}
+.list-contact .contact-item {
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    padding: 2rem 2rem;
+    background: #23A5A5;
+    border-left: 1px solid #ffffff;
+}
+.list-contact .contact-item .contact-name {
+    font-weight: bold;
+}
+.list-contact .contact-item a {
+    color: #fff;
+}
+.list-promotion .promotion-item {
+    padding: 2rem;
+
+}
+.list-promotion .promotion-item .promotion-box .thumbnail {
+    width: 100%;
+    display: block;
+} 
+.list-promotion .promotion-item .promotion-box img {
+    width: 100%;
+    display: block;
+}
+.promotion-title {
+    padding-left: 2rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #000000;
+}
+.block-library {
+    padding: 5rem 0;
+}
+.library-slider .slick-dots {
+    position: relative;
+    top: 1rem;
+}
+.slider-caption {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #23A5A5;
+}
+.pagination {
+    margin-top: 2rem;
+}
+.pagination a {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+.pagination a:hover {
+    color: #23A5A5;
+}
+.page-item.active .page-link {
+    background-color: #23A5A5;
+    color: #fff;
+    border-color: #23A5A5;
+}
+.video-library-container {
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.video-library-container  {
+    position: relative;
+}
+.video-library-container .prev, .video-library-container  .next {
+    position: absolute;
+    top: 45%;
+    z-index: 99999999999;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.video-library-container :hover  .prev, .video-library-container :hover .next {
+    opacity: 1;
+}
+.video-library-container  .prev {
+    left: -3rem;
+}
+.video-library-container  .next {
+    right: -3rem;
+}
+.video-library-container  .prev i, .main-slider .next i {
+    color:  #333333;
+}
+.video-library-container .prev:hover, .main-slider .next:hover {
+    color: #FFAA00;
+}
+.video-library-container .video-title {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+.background-light-primary .title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

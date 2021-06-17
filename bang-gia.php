@@ -11,101 +11,129 @@
 			</div>
 		</div>
 	</section>
-	<section class="block block-service">
+	<section class="block block-price background-light-primary">
 		<div class="d-flex justify-content-center">
 			<h2 class="block-title">CÁC DỊCH VỤ CỦA <span class="highlight">CANARY</span></h2>
 		</div>
 		<div class="line"></div>
-		<div class="block-content container" style="max-width: 1185px;">
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">01</span>
+		<div class="title-description container">
+				Giá dịch vụ tại Nha Khoa Canary dao động tùy vào từng trường hợp cụ thể khác nhau. <br>
+				Khi đến với Nha Khoa Canary, <br>
+				quý khách sẽ được thăm khám và tư vấn kỹ lưỡng các vấn đề về sức khỏe răng miệng của mình cũng như các giải pháp cùng chi phí điều trị theo từng giải pháp để quý khách lựa chọn.
+		</div>
+		<div class="block-content container row" style="max-width: 850px;">
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row flex-xs-column">
+					<div class="left">
+						<a href="#" class="price-thumbnail"><img src="images/icon/nha-chu.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">1. Nha Chu</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail"><img src="images/icon/nha-chu.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Nha Chu</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">02</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/tay-trang-rang.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">2. Tẩy trắng răng</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/tay-trang-rang.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Tẩy trắng răng</a></h3>
 			</div>
-			<div class="service-item aign-items-cente text-center">
-				<div class="number text-orgran">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">03</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/phuc-hoi.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">3. Phục hồi</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/phuc-hoi.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Phục hồi</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-primary">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">04</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/phuc-hinh-su.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">4. Phục hình sứ</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/phuc-hinh-su.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Phục hình sứ</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">05</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/ham-thao-lap.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">5. Hàm tháo lắp</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/ham-thao-lap.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Hàm tháo lắp</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-info">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">06</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/nho-rang-tieu-phau.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">6. Nhổ răng, Tiểu phẫu</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/nho-rang-tieu-phau.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Nhổ răng, Tiểu phẫu</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-success">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">07</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/chinh-nha.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">7. Chỉnh nha</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/chinh-nha.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Chỉnh nha</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">08</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail"><img src="images/icon/cay-ghep-implant.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">8. Cấy ghép Implant</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/cay-ghep-implant.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Cấy ghép Implant</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">09</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/khop-can.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">9. Khớp cắn</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/khop-can.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Khớp cắn</a></h3>
 			</div>
-			<div class="service-item aign-items-center text-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">10</span>
+			<div class="price-item col-md-6 col-xs-12">
+				<div class="price-box d-flex flex-sm-column flex-md-row">
+					<div class="left">
+						<a href="#" class="price-thumbnail "><img src="images/icon/dieu-tri-khac.png" alt=""></a>
+					</div>
+					<div class="right">
+						<h3 class="price-name"><a href="#">10. Điều trị khác</a></h3>
+						<div class="price-number">Miễn phí</div>
+					</div>
 				</div>
-				<a href="#" class="service-thumbnail "><img src="images/icon/dieu-tri-khac.png" alt=""></a>
-				<h3 class="service-name"><a href="#">Điều trị khác</a></h3>
 			</div>
 		</div>
 		<div class="clear"></div>
-	</section>
-	<section class="promotion-banner">
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
 	</section>
 	<section class="block block-appointment container">
 		<div class="d-flex justify-content-center">
@@ -141,7 +169,7 @@
 							<div class="row mb-3">
 							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -176,7 +204,7 @@
 							<div class="row mb-3">
 							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY H:I">
+							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
 							    </div>
 							</div>
 							<div class="row mb-3">

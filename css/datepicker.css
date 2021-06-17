@@ -1,11 +1,5 @@
 /*datepicker*/
 
-.datepicker {
-    width: 265px;
-    padding: 10px;
-    border-radius: 0.42rem;
-}
-
 .datepicker.datepicker-orient-top {
     margin-top: 8px;
 }

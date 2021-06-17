@@ -107,7 +107,7 @@
 				<a href="#"><img src="images/abotu-campus-01.png" alt=""></a>
 				<a href="#"><img src="images/abotu-campus-01.png" alt=""></a>
 			</div>
-			<div class="about-campus-main-content">
+			<div class="about-campus-main-content" style="margin-top: 3rem;">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -174,10 +174,7 @@
 	</section>
 	<section class="promotion-banner">
 		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
-		<div><a href="#"><img src="images/slider/1.png" alt=""></a></div>
+		<div><a href="#"><img src="images/slider/2.png" alt=""></a></div>
 	</section>
 	
 <?php include('footer.php') ?>
