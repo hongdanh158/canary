@@ -40,10 +40,10 @@
 				<div class="text">KHÁCH HÀNG</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center mt-6rem">
 			<h2 class="block-title">VÌ SAO NÊN CHỌN <span class="highlight">CANARY ?</span></h2>
 		</div>
-		<div class="line"></div>
+		<div class="line mt-3rem"></div>
 		<div class="block-content row">
 			<div class="col col-6">
 				<div class="video-wrapper">
@@ -61,7 +61,7 @@
 				<div class="block-subtitle">NÂNG CAO <br>
 				<span class="highlight">CHẤT LƯỢNG ĐIỀU TRỊ</span></div>
 				<div class="sub-content">
-					<div>Thông báo về việc phát bằng tốt nghiệp sau đại học đợt 5 cho học viên các bậc học tốt nghiệp năm 2019. Thông báo về việc phát bằng tốt nghiệp sau đại học đợt 5 cho học viên các bậc học tốt nghiệp năm 2019 Thông báo về việc phát bằng tốt nghiệp sau đại học đợt 5 cho học viên các bậc học tốt nghiệp năm 2019...</div>
+					<div>Thông báo về việc phát bằng tốt nghiệp sau đại học đợt 5 cho học viên các bậc học tốt nghiệp năm 2019. Thông báo về việc phát bằng tốt nghiệp sau đại học đợt 5 cho học viên...</div>
 					<div>
 						<ul>
 							<li>Chuyên nghiệp, tận tình</li>
@@ -83,10 +83,7 @@
 		<div class="line"></div>
 		<div class="block-content container " style="margin-top: 5rem;">
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">01</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/nha-chu.png" alt=""></div>
 				<h3 class="service-name">Nha Chu</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -94,10 +91,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">02</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/tay-trang-rang.png" alt=""></div>
 				<h3 class="service-name">Tẩy trắng răng</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -105,10 +99,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-orgran">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">03</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/phuc-hoi.png" alt=""></div>
 				<h3 class="service-name">Phục hồi</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -116,10 +107,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-primary">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">04</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/phuc-hinh-su.png" alt=""></div>
 				<h3 class="service-name">Phục hình sứ</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -127,10 +115,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">05</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/ham-thao-lap.png" alt=""></div>
 				<h3 class="service-name">Hàm tháo lắp</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -138,10 +123,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-info">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">06</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/nho-rang-tieu-phau.png" alt=""></div>
 				<h3 class="service-name">Nhổ răng, Tiểu phẫu</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -149,10 +131,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-success">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">07</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/chinh-nha.png" alt=""></div>
 				<h3 class="service-name">Chỉnh nha</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -160,10 +139,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">08</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/cay-ghep-implant.png" alt=""></div>
 				<h3 class="service-name">Cấy ghép Implant</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -171,10 +147,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">09</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/khop-can.png" alt=""></div>
 				<h3 class="service-name">Khớp cắn</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -182,10 +155,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">10</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/dieu-tri-khac.png" alt=""></div>
 				<h3 class="service-name">Điều trị khác</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -321,19 +291,19 @@
                         	<div class="row mb-3">
 							    <label for="name" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name">
+							      <input type="text" class="form-control" id="name" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone">
+							      <input type="number" class="form-control" id="phone" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email">
+							      <input type="email" class="form-control" id="email" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -356,19 +326,19 @@
                         	<div class="row mb-3">
 							    <label for="name-2" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name-2">
+							      <input type="text" class="form-control" id="name-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone-2" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone-2">
+							      <input type="number" class="form-control" id="phone-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email-2" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email-2">
+							      <input type="email" class="form-control" id="email-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">

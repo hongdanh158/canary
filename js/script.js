@@ -1,4 +1,40 @@
 $(function() {
+	//Menu
+	if ($('.main-nav').length) {
+	    $(".main-nav ul li").each(function (index, obj) {
+	      if ($(this).has("ul").length) {
+	        $(this).find('a').eq(0).append('<span class="icon"><i class="fal fa-chevron-down"></i></span>');
+	        $(obj).has("ul").find("a:first").attr('href', 'javascript:void(0)');
+	      };
+	    });
+	    $('.header .main-nav > ul li').hover(
+		    function() {
+		        $('.header .main-nav > ul li').removeClass('activeX');
+		        $(this).find('ul').eq(0).stop(false, true).slideDown(200);
+		        $(this).parent().css('overflow', 'visible');
+		    },
+		    function() {
+		        $('.header .main-nav > ul li').removeClass('activeX');
+		        $(this).find('ul').eq(0).stop(false, true).slideUp(200);
+		    }
+	    );
+	};
+	function addOverlay(parent) {
+    	if (!$(parent + ' .overlay').length) {
+  			$(parent).prepend('<div class="overlay"></div>');
+  		}
+    }
+    function removeOverlay(parent) {
+    	if ($(parent + ' .overlay').length) {
+  			$(parent + ' .overlay').remove();
+  		}
+    }
+    $('.overlay').click(function (e) {
+    	alert('sfdsdfsf');
+    	$(".main-nav ul > li").removeClass('active');
+    	$(this).remove();
+    });
+	//DateTimepicker
 	if($('#appointment-2').length) {
 		$('#appointment-2').datetimepicker({
 			autoclose: true,
@@ -11,20 +47,16 @@ $(function() {
 	   		format: 'dd-mm-yyyy hh:ii',
 		});
 	}
-	// if($('#start-date').length) {
-	// 	$('#start-date').datetimepicker({
-	// 		autoclose: true,
-	//    		format: 'dd-mm-yyyy',
-	// 	});
-	// }
-	// if($('#birthday').length) {
-	// 	$('#birthday').datetimepicker({
-	// 		autoclose: true,
-	//    		format: 'dd-mm-yyyy',
-	// 	});
-	// }
-});
-$(function() {
+
+	//Datepiker
+	if ($('.datepicker').length) {
+		$('.datepicker').datepicker({
+			format: 'dd-mm-yyyy',
+		});
+	}
+
+
+	//Slider
 	if ($('.slider').length) {
 		$('.slider').not('.slick-initialized').slick({
 			dots: true,
@@ -209,12 +241,17 @@ $(function() {
 		  	nextArrow: $('.about-campus-slider-next'),
 		});
 	}
-	if ($('.datepicker').length) {
-		$('.datepicker').datepicker({
-			format: 'dd-mm-yyyy',
-		});
-	}
+	
 });
 if ($('.counter').length) {
 	$('.counter').countUp();
 }
+
+$('.bubble-buttons .main-icon').click(function (e) {
+	if ($('.bubble-buttons').hasClass('active')) {
+		$('.bubble-buttons').removeClass('active');
+	}
+	else {
+		$('.bubble-buttons').addClass('active');
+	}
+});

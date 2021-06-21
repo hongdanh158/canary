@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 	<section class="block block-about-us">
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center mt-6rem ">
 			<h2 class="block-title">VỀ <span class="highlight">NHA KHOA</span></h2>
 		</div>
 		<div class="line"></div>
@@ -33,17 +33,17 @@
 		</div>
 		<div class="clear"></div>
 	</section>
-	<section class="block block-doctor">
-		<div class="block-content container row d-flex align-items-stretch">
+	<section class="block block-doctor background-light-primary">
+		<div class="block-content container row d-flex align-items-stretch border-bottom-primary-2px">
+			<div class="dr-logo"><img src="images/canary-dental-logo-2.png" alt=""></div>
 			<div class="col col-6">
 				<div class="doctor-content">
-					<div class="doctor-logo"><img src="images/logo-w.png" alt=""></div>
 					<div class="doctor-title">Bác sĩ Chuyên khoa</div>
-					<h2 class="doctor-name"><span class="highlight">NGUYỄN THỊ THU YẾN</span></h2>
-					<h2 class="title">TRÌNH ĐỘ</h2>
+					<div class="doctor-name">NGUYỄN THỊ THU YẾN</div>
+					<h3 class="title">TRÌNH ĐỘ</h2>
 					<div class="text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 
-					<h2 class="title">HỌC VẤN</h2>
+					<h3 class="title">HỌC VẤN</h2>
 					<div class="text-description mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 				</div>
 			</div>
@@ -117,56 +117,63 @@
 			</div>
 		</div>
 	</section>
-	<section class="block block-promotion block-about-campus background-grey">
+	<section class="block block-promotion block-about-campus background-light-primary">
 		<div class="d-flex justify-content-center">
-			<h2 class="block-title"> QUY TRÌNH <span class="highlight">KIỂM SOÁT VÔ TRÙNG</span></h2>
+			<h2 class="block-title  mt-6rem"> QUY TRÌNH <span class="highlight">KIỂM SOÁT VÔ TRÙNG</span></h2>
 		</div>
 		<div class="block-content about-campus-content container">
-			<div class="about-campus-main-content" style="max-width: 1160px;">
+			<div class="about-campus-main-content" style="max-width: 863px;">
 				<img src="images/quy-trinh-vo-trung.png" alt="">
 			</div>
 		</div>
 	</section>
-	<section class="block customer-comments">
-		<div class="container block-promotion">
-			<div class="d-flex justify-content-center">
-				<h2 class="block-title">CẢM NHẬN <span class="highlight">KHÁCH HÀNG</span></h2>
-			</div>
-			<div class="block-content container">
-				<span class="prev comments-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
-				<span class="next comments-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
-				<div class="comments-slider">
-					<div class="promotion-item">
-						<div class="promotion-box">
-							<a href="#" class="thumbnail thumbnail-rounded"><img src="images/customer/1.png" alt=""></a>
-							<div class="promotion-name text-center"><a href="#"><span class="highlight">Miss.</span> Anna Le</a></div>
-							<div class="promotion-description text-center">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
-							<div class="text-center"><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
-						</div>
+	<section class="block block-promotion container">
+		<div class="d-flex justify-content-center">
+			<h2 class="block-title mt-6rem">TIN TỨC VỀ <span class="highlight">CANARY</span></h2>
+		</div>
+		<div class="line"></div>
+		<div class="block-content container mb-6rem">
+			<span class="prev promotion-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
+			<span class="next promotion-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
+			<div class="promotion-slider">
+				<div class="promotion-item">
+					<div class="promotion-box">
+						<a href="#" class="thumbnail"><img src="images/promotion/1.png" alt=""></a>
+						<div class="promotion-name"><a href="#">Liên kết ngân hàng</a></div>
+						<div class="promotion-description">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
+						<div><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
 					</div>
-					<div class="promotion-item">
-						<div class="promotion-box">
-							<a href="#" class="thumbnail thumbnail-rounded"><img src="images/customer/2.png" alt=""></a>
-							<div class="promotion-name text-center"><a href="#"><span class="highlight">Mr. </span> Marcuz Wu</a></div>
-							<div class="promotion-description text-center">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
-							<div class="text-center"><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
-						</div>
+				</div>
+				<div class="promotion-item">
+					<div class="promotion-box">
+						<a href="#" class="thumbnail"><img src="images/promotion/2.png" alt=""></a>
+						<div class="promotion-name"><a href="#">Liên kết ngân hàng</a></div>
+						<div class="promotion-description">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
+						<div><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
 					</div>
-					<div class="promotion-item">
-						<div class="promotion-box">
-							<a href="#" class="thumbnail thumbnail-rounded"><img src="images/customer/3.png" alt=""></a>
-							<div class="promotion-name text-center"><a href="#"><span class="highlight">Mrs. </span> Kathy Nguyen</a></div>
-							<div class="promotion-description text-center">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
-							<div class="text-center"><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
-						</div>
+				</div>
+				<div class="promotion-item">
+					<div class="promotion-box">
+						<a href="#" class="thumbnail"><img src="images/promotion/3.png" alt=""></a>
+						<div class="promotion-name"><a href="#">Liên kết ngân hàng</a></div>
+						<div class="promotion-description">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
+						<div><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
 					</div>
-					<div class="promotion-item">
-						<div class="promotion-box">
-							<a href="#" class="thumbnail thumbnail-rounded"><img src="images/customer/3.png" alt=""></a>
-							<div class="promotion-name text-center"><a href="#"><span class="highlight">Mrs. </span> Kathy Nguyen</a></div>
-							<div class="promotion-description text-center">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
-							<div class="text-center"><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
-						</div>
+				</div>
+				<div class="promotion-item">
+					<div class="promotion-box">
+						<a href="#" class="thumbnail"><img src="images/promotion/1.png" alt=""></a>
+						<div class="promotion-name"><a href="#">Liên kết ngân hàng</a></div>
+						<div class="promotion-description">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
+						<div><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
+					</div>
+				</div>
+				<div class="promotion-item">
+					<div class="promotion-box">
+						<a href="#" class="thumbnail"><img src="images/promotion/2.png" alt=""></a>
+						<div class="promotion-name"><a href="#">Liên kết ngân hàng</a></div>
+						<div class="promotion-description">Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.</div>
+						<div><a class="btn btn-outline-primary btn-sm" href="#"> Tìm hiểu thêm</a></div>	
 					</div>
 				</div>
 			</div>

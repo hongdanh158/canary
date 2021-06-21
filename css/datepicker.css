@@ -10,7 +10,7 @@
 
 .datepicker td,
 .datepicker th {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: regular;
     width: 40px;
     height: 40px;
@@ -31,7 +31,7 @@
 .datepicker thead th.prev i,
 .datepicker thead th.datepicker-switch i,
 .datepicker thead th.next i {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #7E8299;
 }
 
@@ -355,9 +355,9 @@
 
 .datetimepicker td,
 .datetimepicker th {
-    font-size: 1rem;
-    width: 33px;
-    height: 33px;
+    font-size: 1.6rem;
+    width: 40px;
+    height: 40px;
     font-weight: regular;
     border-radius: 0.42rem;
 }
@@ -404,7 +404,7 @@
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     content: "\f356";
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 .datetimepicker thead th.prev>span:before {
@@ -420,7 +420,7 @@
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     content: "\f355";
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 .datetimepicker tbody tr>td span {
@@ -429,7 +429,7 @@
 }
 
 .datetimepicker tbody tr>td.day {
-    color: #7E8299;
+    color: #333;
 }
 
 .datetimepicker tbody tr>td.day:hover {
@@ -441,7 +441,7 @@
 }
 
 .datetimepicker tbody tr>td.day.new {
-    color: #3F4254;
+    color: #7E8299;
 }
 
 .datetimepicker tbody tr>td.day.selected,

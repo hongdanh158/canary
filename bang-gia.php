@@ -21,7 +21,7 @@
 				Khi đến với Nha Khoa Canary, <br>
 				quý khách sẽ được thăm khám và tư vấn kỹ lưỡng các vấn đề về sức khỏe răng miệng của mình cũng như các giải pháp cùng chi phí điều trị theo từng giải pháp để quý khách lựa chọn.
 		</div>
-		<div class="block-content container row" style="max-width: 850px;">
+		<div class="block-content container row" style="max-width: 850px; margin-top: 6rem;">
 			<div class="price-item col-md-6 col-xs-12">
 				<div class="price-box d-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
@@ -151,19 +151,19 @@
                         	<div class="row mb-3">
 							    <label for="name" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name">
+							      <input type="text" class="form-control" id="name" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone">
+							      <input type="number" class="form-control" id="phone" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email">
+							      <input type="email" class="form-control" id="email" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -186,19 +186,19 @@
                         	<div class="row mb-3">
 							    <label for="name-2" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name-2">
+							      <input type="text" class="form-control" id="name-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone-2" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone-2">
+							      <input type="number" class="form-control" id="phone-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email-2" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email-2">
+							      <input type="email" class="form-control" id="email-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">

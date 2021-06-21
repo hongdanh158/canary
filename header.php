@@ -55,26 +55,77 @@
 			    <div class="col col-2">
 			    	<div class="logo">
 			     		<a class="imgage" href="index.php"><img src="images/logo.png" alt=""></a>
-			     		<h1 class="logo-text"><a href="index.php">NHA KHOA CANARY <sup class="registered">&reg;</sup></a></h1>
+			     		<h1 class="logo-text"><a href="index.php">NHA KHOA CANARY <sup class="registered">&reg;</sup></a> <br>
+			     			<span class="since">SINCE 2005</span>
+			     		</h1>
 			    	</div>
 			    </div>
-			    <div class="col col-8">
+			    <div class="col col-8  d-flex align-items-center">
 			    	<div class="main-nav">
 			    		<ul class="nav d-flex justify-content-center">
-					      	<li><a href="gioi-thieu.php">GIỚI THIỆU</a></li>
-					      	<li><a href="dich-vu.php">DỊCH VỤ</a></li>
-					      	<li><a href="bang-gia.php">BẢNG GIÁ</a></li>
-					      	<li><a href="chinh-sach-bao-hanh.php">CHÍNH SÁCH BẢO HÀNH</a></li>
+					      	<li><a href="gioi-thieu.php">GIỚI THIỆU</a>
+					      		<ul>
+							      	<li><a href="gioi-thieu.php">Về Nha khoa</a></li>
+							      	<li><a href="dich-vu.php">Bác sĩ chuyên khoa</a></li>
+							      	<li><a href="bang-gia.php">Các chứng nhận của Bác sĩ</a></li>
+							      	<li><a href="chinh-sach-bao-hanh.php">Giới thiệu về Phòng khám</a></li>
+							      	<li><a href="dat-hen.php">Quy trình kiểm soát vô trùng</a></li>
+							      	<li><a href="thu-vien.php">Tin tức về Canary</a></li>
+							    </ul>
+					      	</li>
+					      	<li><a href="dich-vu.php">DỊCH VỤ</a>
+					      		<ul>
+							      	<li><a href="dich-vu-2.php">Nha chu</a></li>
+							      	<li><a href="dich-vu-2.php">Tẩy trắng răng</a></li>
+							      	<li><a href="dich-vu-2.php">Phục hồi</a></li>
+							      	<li><a href="dich-vu-2.php">Phục hình sứ</a></li>
+							      	<li><a href="dich-vu-2.php">Hàm tháo lắp</a></li>
+							      	<li><a href="dich-vu-2.php">Nhổ răng - Tiểu phẫu</a></li>
+							      	<li><a href="dich-vu-2.php">Chỉnh nha</a></li>
+							      	<li><a href="dich-vu-2.php">Cấy ghép Implant</a></li>
+							      	<li><a href="dich-vu-2.php">Điều trị cắn khớp</a></li>
+							      	<li><a href="dich-vu-2.php">Điều trị khác</a></li>
+							    </ul>
+					      	</li>
+					      	<li><a href="bang-gia.php">BẢNG GIÁ</a>
+					      		<ul>
+							      	<li><a href="bang-gia.php">Nha chu</a></li>
+							      	<li><a href="bang-gia.php">Tẩy trắng răng</a></li>
+							      	<li><a href="bang-gia.php">Phục hồi</a></li>
+							      	<li><a href="bang-gia.php">Phục hình sứ</a></li>
+							      	<li><a href="bang-gia.php">Hàm tháo lắp</a></li>
+							      	<li><a href="bang-gia.php">Nhổ răng - Tiểu phẫu</a></li>
+							      	<li><a href="bang-gia.php">Chỉnh nha</a></li>
+							      	<li><a href="dbang-gia.php">Cấy ghép Implant</a></li>
+							      	<li><a href="bang-gia.php">Điều trị cắn khớp</a></li>
+							      	<li><a href="bang-gia.php">Điều trị khác</a></li>
+							    </ul>
+					      	</li>
+					      	<li><a href="chinh-sach-bao-hanh.php">CHÍNH SÁCH BẢO HÀNH</a>
+					      		<ul>
+							      	<li><a href="chinh-sach-bao-hanh.php">Bảo hành Điều trị</a></li>
+							      	<li><a href="chinh-sach-bao-hanh.php">Quy định Thanh toán</a></li>
+							    </ul>
+					      	</li>
 					      	<li><a href="dat-hen.php">ĐẶT HẸN</a></li>
 					      	<li><a href="thu-vien.php">THƯ VIỆN</a></li>
 					      	<li><a href="ho-so-khach-hang.php">HỒ SƠ KHÁCH HÀNG</a></li>
 					      	<li><a href="gioi-thieu.php">KIẾN THỨC NHA KHOA</a></li>
-					      	<li><a href="uu-dai.php">ƯU ĐÃI</a></li>
+					      	<li><a href="uu-dai.php">ƯU ĐÃI</a>
+					      		<ul>
+							      	<li><a href="gioi-thieu.php">Về Nha khoa</a></li>
+							      	<li><a href="dich-vu.php">Bác sĩ chuyên khoa</a></li>
+							      	<li><a href="bang-gia.php">Các chứng nhận của Bác sĩ</a></li>
+							      	<li><a href="chinh-sach-bao-hanh.php">Giới thiệu về Phòng khám</a></li>
+							      	<li><a href="dat-hen.php">Quy trình kiểm soát vô trùng</a></li>
+							      	<li><a href="thu-vien.php">Tin tức về Canary</a></li>
+							    </ul>
+					      	</li>
 					      	<li><a href="lien-he.php">LIÊN HỆ</a></li>
-					      </ul>
+					    </ul>
 			    	</div>	
 			    </div>
-			    <div class="col col-2">
+			    <div class="col col-2 d-flex align-items-center">
 			      	<div class="search">
 			      		<div class="input-group">
 							<input type="text" class="form-control" placeholder="Tìm kiếm" aria-describedby="button-search">

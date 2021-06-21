@@ -17,7 +17,7 @@
 		</div>
 		<div class="line"></div>
 		<div class="block-content container" style="max-width: 1185px;">
-			<div class="service-item aign-items-center text-center">
+			<div class="service-item active aign-items-center text-center">
 				<div class="number">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">01</span>
@@ -198,19 +198,19 @@
                         	<div class="row mb-3">
 							    <label for="name" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name">
+							      <input type="text" class="form-control" id="name" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone">
+							      <input type="number" class="form-control" id="phone" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email">
+							      <input type="email" class="form-control" id="email" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
@@ -233,19 +233,19 @@
                         	<div class="row mb-3">
 							    <label for="name-2" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name-2">
+							      <input type="text" class="form-control" id="name-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="phone-2" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone-2">
+							      <input type="number" class="form-control" id="phone-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">
 							    <label for="email-2" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
 							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email-2">
+							      <input type="email" class="form-control" id="email-2" autocomplete="off">
 							    </div>
 							</div>
 							<div class="row mb-3">

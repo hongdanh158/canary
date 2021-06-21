@@ -25,6 +25,51 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ellipse-01:before {
+.icon-zalo .path1:before {
   content: "\e900";
+  color: rgb(255, 255, 255);
+}
+.icon-zalo .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(253, 254, 254);
+}
+.icon-zalo .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(1, 128, 199);
+}
+.icon-zalo .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(1, 114, 177);
+}
+.icon-zalo .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(1, 128, 199);
+}
+.icon-zalo .path6:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(1, 128, 199);
+}
+.icon-zalo .path7:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(253, 254, 254);
+}
+.icon-chat:before {
+  content: "\e901";
+}
+.icon-messenger:before {
+  content: "\e902";
+  color: #2196f3;
+}
+.icon-telephone:before {
+  content: "\e903";
+  color: #bc0020;
+}
+.icon-ellipse-01:before {
+  content: "\e90a";
 }
