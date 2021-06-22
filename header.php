@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 <div class="slidebar">
@@ -40,7 +41,7 @@
 			      	<a href="#" class="item"><img src="images/icon/en-lang.jpg" alt="English"></a>
 			      	<a href="#" class="item"><img src="images/icon/vi-lang.jpg" alt="English"></a>
 			      	<a href="#" class="item"><img src="images/icon/jp-lang.jpg" alt="English"></a>
-			      	<a href="#" class="item login">Log in</a>
+			      	<a href="#" class="item login" data-bs-toggle="modal" data-bs-target="#login-form">Log in</a>
 			    </div>
 			    <div class="col col-3 socical">
 			      	<div class="item">FOLLOW US</div>
@@ -110,15 +111,14 @@
 					      	<li><a href="dat-hen.php">ĐẶT HẸN</a></li>
 					      	<li><a href="thu-vien.php">THƯ VIỆN</a></li>
 					      	<li><a href="ho-so-khach-hang.php">HỒ SƠ KHÁCH HÀNG</a></li>
-					      	<li><a href="gioi-thieu.php">KIẾN THỨC NHA KHOA</a></li>
+					      	<li><a href="kien-thuc-nha-khoa.php">KIẾN THỨC NHA KHOA</a></li>
 					      	<li><a href="uu-dai.php">ƯU ĐÃI</a>
 					      		<ul>
-							      	<li><a href="gioi-thieu.php">Về Nha khoa</a></li>
-							      	<li><a href="dich-vu.php">Bác sĩ chuyên khoa</a></li>
-							      	<li><a href="bang-gia.php">Các chứng nhận của Bác sĩ</a></li>
-							      	<li><a href="chinh-sach-bao-hanh.php">Giới thiệu về Phòng khám</a></li>
-							      	<li><a href="dat-hen.php">Quy trình kiểm soát vô trùng</a></li>
-							      	<li><a href="thu-vien.php">Tin tức về Canary</a></li>
+							      	<li><a href="uu-dai-lien-ket-bao-hiem.php">Liên kết bảo hiểm</a></li>
+							      	<li><a href="uu-dai-lien-ket-ngan-hang.php">Liên kết trả góp ngân hàng</a></li>
+							      	<li><a href="uu-dai-dich-vu-nha-khoa.php">Dich vụ Nha khoa</a></li>
+							      	<li><a href="uu-dai-khac.php">Ưu đãi cho Sinh viên</a></li>
+							      	<li><a href="uu-dai-khac.php#tu-hanh">Ưu đãi cho Quý tu hành</a></li>
 							    </ul>
 					      	</li>
 					      	<li><a href="lien-he.php">LIÊN HỆ</a></li>
@@ -136,3 +136,58 @@
 			 </div>
 		</div>
 	</header>
+	<div class="modal login-form" id="login-form" tabindex="-1">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	    	<div class="modal-body">
+		        <div class="box">
+		        	<div class="row">
+			        	<div class="col-md-12 form-froup">
+			        		<input type="text" name="username" class="form-control" autocomplete="off" placeholder="Địa chỉ Email">
+			        	</div>
+			        	<div class="col-md-12 form-froup">
+			        		<input type="password" name="password"  class="form-control" autocomplete="off" placeholder="Mật khẩu">
+			        	</div>
+			        	<div class="col-md-12 d-flex justify-content-center mt-3rem">
+			        		<button>ĐĂNG NHẬP</button>
+			        	</div>
+			        </div>
+				    <div class="row d-flex justify-content-center mt-3rem text-center text-white footer-link">
+				        <p>Bằng cách tạo tài khoản, bạn đồng ý và chấp nhận <br> <a href="#">Điều khoản</a> và <a href="#">Chính sách bảo mật</a> của chúng tôi.</p>
+				    </div>
+		        </div>
+		    	<div class="footer d-flex justify-content-center text-center text-white footer-link mt-3rem" style="border-top: 1px solid #fff;">
+		        	<p>Bạn chưa có tài khoản? <a href="#" id="register-form-show">Đăng ký ngay</a></p>
+		        </div>
+		    </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal login-form" id="register-form" tabindex="-1">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	    	<div class="modal-body">
+		        <div class="box">
+		        	<div class="row">
+		        		<div class="col-md-12 form-froup">
+			        		<input type="text" name="username" class="form-control" autocomplete="off" placeholder="Họ và Tên">
+			        	</div>
+			        	<div class="col-md-12 form-froup">
+			        		<input type="text" name="username" class="form-control" autocomplete="off" placeholder="Địa chỉ Email">
+			        	</div>
+			        	<div class="col-md-12 form-froup">
+			        		<input type="password" name="password"  class="form-control" autocomplete="off" placeholder="Mật khẩu">
+			        	</div>
+			        	<div class="col-md-12 d-flex justify-content-center mt-3rem">
+			        		<button>ĐĂNG NHẬP</button>
+			        	</div>
+			        </div>
+				    <div class="row d-flex justify-content-center mt-3rem text-center text-white footer-link">
+				        <p>Bằng cách tạo tài khoản, bạn đồng ý và chấp nhận <br> <a href="#">Điều khoản</a> và <a href="#">Chính sách bảo mật</a> của chúng tôi.</p>
+				    </div>
+		        </div>
+		    </div>
+	    </div>
+	  </div>
+	</div>

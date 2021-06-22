@@ -69,7 +69,6 @@
 </div>
 </body>
 <script src="js/bootstrap.bundle.js"></script>
-<script src="js/jquery.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.countup.min.js"></script>
 <script src="js/video/video.js"></script>

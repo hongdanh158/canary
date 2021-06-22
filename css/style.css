@@ -87,8 +87,17 @@ button:hover {
 a i {
     vertical-align: 0;
 }
+.border-bottom-primary {
+    border-bottom: 1px solid #23A5A5;
+}
 .border-bottom-primary-2px {
     border-bottom: 2px solid #23A5A5;
+}
+.border-right-primary {
+    border-right: 1px solid #23A5A5;
+}
+.border-right-primary-2px {
+    border-right: 2px solid #23A5A5;
 }
 .required {
     color: #FFAA00;
@@ -325,6 +334,9 @@ a i {
     font-size: 1.8rem;
     font-weight: 700;
     padding: 15px 15px;
+}
+.header .bottom .main-nav .nav li:hover > a{
+    color: #23A5A5;
 }
 .header .bottom .main-nav .nav ul {
     display: none;
@@ -795,7 +807,7 @@ a i {
 .appointment-content .btn {
     margin: 3rem 0;
 }
-.nav-fill .nav-item, .nav-fill>.nav-link {
+.block-appointment .nav-fill .nav-item, .nav-fill>.nav-link {
     background-color: #23A5A5;
     color: #fff;
     border-radius: 0;
@@ -806,7 +818,7 @@ a i {
     font-weight: bold;
     vertical-align: middle;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.block-appointment .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     font-weight: bold;
     border: 1px solid #FFAA00;
     border-bottom: 0;
@@ -815,7 +827,7 @@ a i {
     border-radius: 0;
     font-size: 2.4rem;
 }
-.tab-content {
+.block-appointment .tab-content {
     border: 1px solid #FFAA00;
     border-top: none;
     padding: 2rem;
@@ -1284,7 +1296,7 @@ a i {
 }
 .customer-id {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: #333333;
 }
 .customer-information-conent {
@@ -1293,14 +1305,21 @@ a i {
 .customer-information-conent .header-title {
     margin: 3rem 0;
     display: block;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
+}
+.customer-information-conent .header-form .note {
+    background: transparent;
+    border:  1px solid #23A5A5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
 }
 .customer-information-conent form {
     margin-left: 4rem;
     margin-bottom: 5rem;
 }
 .customer-information-conent label {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 .customer-information-conent .header-form {
@@ -1339,18 +1358,31 @@ a i {
     margin-top: 5rem;
 }
 .list-contact .contact-item {
-    color: #fff;
     text-align: center;
     line-height: 2;
     padding: 2rem 2rem;
-    background: #23A5A5;
+    background: #F0F0F0;
     border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    min-height: 105px;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.list-contact .contact-item:hover {
+    background: #ffaa00;
+    color: #fff;
+}
+.list-contact .contact-item:hover a {
+    color: #fff;
 }
 .list-contact .contact-item .contact-name {
     font-weight: bold;
 }
 .list-contact .contact-item a {
-    color: #fff;
+    color: #333;
 }
 .list-promotion .promotion-item {
     padding: 2rem;
@@ -1562,4 +1594,398 @@ a i {
         -ms-transform: scale(1.2);
          -o-transform: scale(1.2);
             transform: scale(1.2);
+}
+.list-knowledge .item {
+    padding: 2.5rem;
+    
+}
+.list-knowledge .item .box {
+   position: relative; 
+}
+.list-knowledge .item .box .thumbnail {
+    display: block;
+    width: 100%;
+}
+.list-knowledge .item .box .thumbnail img {
+    display: block;
+    width: 100%;
+}.list-knowledge .item .box .article-name {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+
+.list-knowledge .item .box .article-name a {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #333333;
+    padding: 5px;
+}
+.list-knowledge .item .box .article-name .number {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    vertical-align: -10px;
+    padding-right: 5px;
+}
+.list-knowledge .item .box .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255,170,0);
+    background: linear-gradient(0deg, rgba(255,170,0,1) 0%, rgba(255,170,0,1) 33%, rgba(0,0,0,0) 100%);
+    --bs-gutter-x: 0;
+    margin-top: 0;
+    opacity: 0;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.list-knowledge .item .box .mask .mask-article-name {
+    padding: 5px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #333333;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+    width: 100%;
+    height: 43px ;
+    background-color: #FFAA00;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    font-weight: bold;
+    overflow: hidden;
+    border-top: 1px solid #23A5A5;
+}
+.list-knowledge .item .box .mask .mask-article-name .number {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    vertical-align: -10px;
+    padding-right: 5px;
+}
+.list-knowledge .item .box .mask .mask-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #000000;
+    padding: 5px;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.list-knowledge .item .box:hover .mask {
+    opacity: 1;
+}
+.list-knowledge .item .box:hover .mask-description {
+    bottom: 43px;
+}
+.block-dental-knowledge .tab-title {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.block-dental-knowledge .content-title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.block-dental-knowledge .nav-tabs {
+    border:  0;
+}
+.block-dental-knowledge .nav-tabs .nav-link {
+    color: #333;
+    line-height: 3;
+    border: none;
+    text-align:left;
+}
+.block-dental-knowledge .nav-tabs .nav-link i {
+    color: #23A5A5;
+}
+.block-dental-knowledge .nav-tabs .nav-item {
+    text-align: left;
+}
+.block-dental-knowledge .nav-tabs .nav-item.show .nav-link, 
+.block-dental-knowledge .nav-tabs .nav-link.active {
+    background: none;
+    border: none;
+    color: #ffaa00;
+    
+}
+.block-dental-knowledge .nav-tabs .nav-link:focus, .block-dental-knowledge  .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    color: #23A5A5;
+}
+.block-dental-knowledge .modal-content table {
+    margin-left: -10px;
+}
+.block-dental-knowledge .modal-content table td {
+    padding: 10px;
+    vertical-align: top;
+}
+.modal.show .modal-dialog {
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12), 0px 12px 24px rgba(0, 0, 0, 0.12), 0px 1px 32px rgba(0, 0, 0, 0.12);
+    padding: 6rem;
+}
+
+.modal-content.modal-info {
+    padding: 6rem;
+    border:  1px solid #23A5A5;
+    height: 100vh;
+    position: relative;
+}
+.modal .btn-close {
+    position: absolute;
+    top:  10px;
+    right: 20px;
+    background: none;
+    cursor: pointer;
+    
+}
+.modal .btn-close:focusm, .modal .btn-close:active {
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+.modal .btn-close i {
+    color: #FFAA00;
+    font-size: 3rem;
+}
+.modal-content .breadcrumb  {
+    margin-bottom: 3rem;
+}
+.modal-content .breadcrumb-item {
+    border-bottom: 1px solid #23A5A5;
+    line-height: 3;
+}
+.modal-content .breadcrumb-item.active {
+    color: #333;
+    font-weight: bold;
+}
+.pd-6 {
+    padding: 6rem;
+}
+.pd-3 {
+    padding: 3rem;
+}
+.list-insurrance .item {
+    padding: 0 3rem;
+    margin-bottom: 6rem;
+}
+.list-insurrance .item a {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 3px  rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.list-insurrance .item a img {
+    display: block;
+    width: 100%;
+}
+.list-insurrance .item a:hover {
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+}
+
+.list-bank .item {
+    padding: 0 3rem;
+    width: 17.6%;
+    margin-right: 3%;
+    margin-bottom: 6rem;
+}
+.list-bank .item:nth-child(5n) {
+    margin-right: 0;
+}
+.list-bank .item a {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 3px  rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.list-bank .item a img {
+    display: block;
+    width: 100%;
+}
+.list-bank .item a:hover {
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+}
+.block .block-title .sub-title {
+    text-align: center;
+    color: #000000;
+}
+.block-promotion-insurrance .sub-title img {
+    width: 71px;
+}
+.block.block-promotion-insurrance .block-title::before {
+    border-bottom: none;
+}
+.block.block-promotion-insurrance .line {
+    border-bottom: 2px solid #333333;
+    width: 200px;
+    margin: 4rem auto 6rem auto;
+}
+.block-promotion-insurrance .block-title {
+    margin-bottom: 0 !important;
+}
+.trevel-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.trevel-slider .trevel-item {
+    padding: 1.5rem;
+    width: 33.3333%;
+}
+.trevel-slider .trevel-box {
+    padding: 1.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 16%), 0px 2px 4px rgb(0 0 0 / 12%), 0px 1px 8px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+}
+.trevel-slider .trevel-box .thumbnail, .trevel-slider .trevel-box .thumbnail img {
+    display: block;
+    width: 100%;
+}
+.trevel-slider .trevel-box .thumbnail {
+    margin-bottom: 2rem;
+}
+.trevel-slider .trevel-box .trevel-name {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: #23A5A5;
+}
+.trevel-slider .trevel-box .trevel-info {
+    line-height: 2;
+}
+.trevel-slider .trevel-box .trevel-info i {
+    color: #23A5A5;
+    font-size: 1.2rem;
+}
+.trevel-slider .prev i, .trevel-slider .next i {
+    font-size: 20rem;
+}
+.trevel-slider .prev {
+    left: -20rem;
+}
+.trevel-slider .next {
+    right: -10rem;
+}
+.block-promotion-other .block-content {
+    border-bottom: 1px solid #23A5A5;
+}
+.block-promotion-other .block-content:last-child {
+    border:  none;
+}
+.login-form .modal-dialog {
+    max-width: 350px;
+    border-radius: 15px !important;
+    background-color: #23A5A5 !important;
+    padding: 0 !important;
+}
+.login-form  .modal-content {
+   background-color: #23A5A5 !important;
+   border : none;
+   padding: 0 !important;
+    border-radius: 15px !important;
+}
+.login-form .modal-body {
+    padding: 0 !important;
+}
+.login-form .modal-body .box {
+    padding: 3rem !important;
+}
+.login-form .form-control {
+    color: #fff;
+    border:  0;
+    background-color: transparent !important;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.login-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.login-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.login-form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.login-form button {
+    padding: 1rem 2rem;
+    border:  0;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    font-weight: bold;
+    color: #23A5A5;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+.login-form .footer-link {
+    font-size: 1.1rem;
+    color: #fff;
+}
+.login-form .footer-link a {
+    color: #fff;
+    text-decoration: underline;
+}
+.login-form .footer {
+    margin-top: 0;
+    border-top: 1px solid #fff;
+    padding: 1rem;
+}
+.login-form .footer p {
+    margin-bottom: 0;
+}
+.login-form button:hover {
+    background-color: #ffaa00;
+    color: #fff;
+}
+.modal.show {
+    z-index: 999999;
+}
+.modal.custumer-info-modal.show .modal-dialog {
+    padding: 0 !important;
+}
+.custumer-info-modal .modal-content.modal-info {
+    border:  none;
+}
+.form-select {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.6rem;
 }

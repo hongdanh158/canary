@@ -255,3 +255,7 @@ $('.bubble-buttons .main-icon').click(function (e) {
 		$('.bubble-buttons').addClass('active');
 	}
 });
+$('#register-form-show').click(function (e) {
+	$('#login-form').modal('toggle')
+	$('#register-form').modal('toggle')
+});

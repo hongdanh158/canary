@@ -4,15 +4,19 @@
 			<div class="d-flex justify-content-center">
 				<h2 class="block-title">HỒ SƠ <span class="highlight">KHÁCH HÀNG</span></h2>
 			</div>
-			<div class="block-content container row">
-				<div class="col-md-12 d-flex justify-content-end mb-5">
-					 <a class="btn btn-outline-primary" href="#">Tìm hiểu thêm</a>
-				</div>
+			<div class="text-description text-center d-flex justify-content-center" style="max-width: 850px; margin: 0 auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div class="block-content container row mt-6rem">
 				<div class="col-md-12 customer-information-conent background-light-primary">
 					<div class="row header-form">
 						<div class="col-md-6 d-flex align-items-center">
-							<p class="customer-information-title">HỒ SƠ BỆNH NHÂN <br> <span class="customer-id">MÃ HỒ SƠ: NKCNR001</span></p>
 							
+							<div class="row">
+								<div class="col-12"><strong class="customer-id">MÃ HỒ SƠ: NKCNR001</strong></div>
+								<div class="col-12">
+									<div><strong>LƯU Ý: </strong></div>
+									<textarea class="note"></textarea>
+								</div>
+							</div>
 						</div>
 						<div class="col-md-6 d-flex justify-content-end">
 							<div class="logo">
@@ -26,39 +30,30 @@
 					<div class="row">
 						<div class="col-md-12">
 							<form>
-								<p class="header-title  d-flex justify-content-center"><strong class="highlight">THÔNG TIN CỦA BỆNH NHÂN</strong></p>
+								<p class="header-title"><strong class="highlight">THÔNG TIN KHÁCH HÀNG</strong></p>
 								<div class="row mb-3">
 									<div class="col-md-5 row">
 	                        			 <label for="appointment" class="col-sm-4 col-form-label">Ngày bắt đầu: <sup class="required">*</sup></label>
 									    <div class="col-sm-8">
-									      <input type="text" class="form-control datepicker" readonly placeholder="DD-MM-YYYY" id="start-date">
+									      <p>01/01/2021</p>
 									    </div>
 	                        		</div>
 								</div>
 	                        	<div class="row mb-3">
 	                        		<div class="col-md-5 row">
 	                        			<label for="name" class="col-sm-4 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-									    <div class="col-sm-8">
-									      <input type="text" class="form-control" autocomplete="off"  id="name">
-									    </div>
+									    <div class="col-sm-8"><p>Nguyễn Văn A</p></div>
 	                        		</div>
 								    <div class="col-md-4 row">
 	                        			<label for="birthday" class="col-sm-4 col-form-label">Năm sinh: <sup class="required">*</sup></label>
 									    <div class="col-sm-8">
-									      <input type="text" class="form-control datepicker" autocomplete="off" name="birthday"  id="birthday">
+									      <p>01/01/1990</p>
 									    </div>
 	                        		</div>
 	                        		<div class="col-md-3 row">
 	                        			<label for="sex" class="col-sm-5 col-form-label">Giới tính <sup class="required">*</sup></label>
 									    <div class="col-sm-7">
-									    	<div class="form-check form-check-inline">
-											  <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="option1">
-											  <label class="form-check-label" for="inlineRadio1">Nam</label>
-											</div>
-											<div class="form-check form-check-inline">
-											  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-											  <label class="form-check-label" for="inlineRadio2">Nữ</label>
-											</div>
+									    	<p>Nam</p>
 									    </div>
 	                        		</div>
 								</div>
@@ -66,24 +61,19 @@
 								    <div class="col-md-5 row">
 	                        			<label for="phone" class="col-sm-4 col-form-label">Số điện thoại: <sup class="required">*</sup></label>
 									    <div class="col-sm-8">
-									      <input type="text" class="form-control" autocomplete="off" id="phone">
+									      <p>0123456789</p>
 									    </div>
 	                        		</div>
 	                        		<div class="col-md-4 row">
 	                        			<label for="email" class="col-sm-4 col-form-label">Email <sup class="required">*</sup></label>
 									    <div class="col-sm-8">
-									      <input type="text" class="form-control" autocomplete="off"  id="email">
+									      <p>example@gmail.com</p>
 									    </div>
 	                        		</div>
 	                        		<div class="col-md-3 row">
 	                        			<label for="blood-group" class="col-sm-6 col-form-label">Nhóm máu <sup class="required">*</sup></label>
 									    <div class="col-sm-6">
-									    	<select class="form-select" aria-label="Default select example">
-									      		<option value="3">O</option>
-												<option selected>A</option>
-												<option value="1">B</option>
-												<option value="2">AB</option>
-											</select>
+									    	<p>AB</p>
 									    </div>
 	                        		</div>
 								</div>
@@ -91,7 +81,7 @@
 								    <div class="col-md-12 row">
 	                        			<label for="address" class="col-sm-1 col-form-label">Địa chỉ: <sup class="required">*</sup></label>
 									    <div class="col-sm-11" style="padding: 0 55px 0 70px">
-									      <input type="text" class="form-control" autocomplete="off" id="address">
+									      <p>12 Tôn Đản, P13, Q.4, TP.Hồ Chí Minh</p>
 									    </div>
 	                        		</div>
 								</div>
@@ -99,7 +89,7 @@
 								    <div class="col-md-12 row">
 	                        			<label for="name" class="col-sm-1 col-form-label">Bệnh lí kèm theo:</label>
 									    <div class="col-sm-11" style="padding: 0 55px 0 70px">
-									      <textarea name="" rows="5" class="form-control" ></textarea>
+									      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 									    </div>
 	                        		</div>
 								</div>
@@ -107,7 +97,7 @@
 								    <div class="col-md-12 row">
 	                        			<label for="name" class="col-sm-1 col-form-label">Lưu ý đặc biệt:</label>
 									    <div class="col-sm-11" style="padding: 0 55px 0 70px">
-									      <textarea name="" rows="5" class="form-control" ></textarea>
+									      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 									    </div>
 	                        		</div>
 								</div>
@@ -115,16 +105,108 @@
 							<div style="margin-left: 6rem; margin-bottom: 5rem;">
 								<p class="header-title d-flex justify-content-center"><strong class="highlight">HỒ SƠ THANH TOÁN BẢO HIỂM</strong></p>
 								<div class="row mb-3">
-									<div class="col-md-6">
-										<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> TẬP TIN HOÁ ĐƠN ĐỎ </a></div>
-									</div>
-									<div class="col-md-6">
-										<div class="d-flex justify-content-start"><a class="btn btn-outline-primary" href="#"> TẬP TIN HỒ SƠ ĐIỀU TRỊ </a></div>
+									<div class="col-md-12 d-flex justify-content-center">
+										<a class="btn btn-outline-primary mr-2" data-bs-toggle="modal" data-bs-target="#modal"> THÔNG TIN KHÁCH HÀNG CUNG CẤP</a> &nbsp; &nbsp;
+										<a class="btn btn-outline-primary mr-2" href="#"> TẬP TIN HOÁ ĐƠN ĐỎ </a> &nbsp; &nbsp;
+										<a class="btn btn-outline-primary mr-2" href="#"> TẬP TIN HỒ SƠ ĐIỀU TRỊ </a>
 									</div>
 								</div>
 							</div>							
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal custumer-info-modal" id="modal" tabindex="-1">
+			<div class="modal-dialog modal-xl container">
+				<div class="modal-content modal-info ">
+					<span type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></span>
+					<form>
+						<p class="header-title"><h2><strong>THÔNG TIN CỦA KHÁCH HÀNG CUNG CẤP</strong></h2></p> <br>	
+                    	<div class="row mb-3">
+                    		<div class="col-md-12 row">
+                    			<label for="name" class="col-sm-3 col-form-label">Họ và Tên <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off"  id="name">
+							    </div>
+                    		</div>
+                    	</div>
+						<div class="row mb-3">
+						    <div class="col-md-12 row">
+                    			<label for="phone" class="col-sm-3 col-form-label">Số điện thoại: <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off" id="phone">
+							    </div>
+                    		</div>
+                    	</div>
+                    	<div class="row mb-3">
+                    		<div class="col-md-12 row">
+                    			<label for="email" class="col-sm-3 col-form-label">CMND / CCND <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off"  id="email">
+							    </div>
+                    		</div>
+                    	</div>
+                    	<div class="row mb-3">
+                    		<div class="col-md-12 row">
+                    			<label for="blood-group" class="col-sm-3 col-form-label">Phương thức thanh toán <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							    	<select class="form-select" aria-label="Default select example">
+							      		<option>Chọn phương thức</option>
+									</select>
+							    </div>
+                    		</div>
+						</div>
+						<div class="row mb-3">
+                    		<div class="col-md-12 row">
+                    			<label for="blood-group" class="col-sm-3 col-form-label">Hình thức thanh toán <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							    	<select class="form-select" aria-label="Default select example">
+							      		<option>Chọn hình thức</option>
+									</select>
+							    </div>
+                    		</div>
+						</div>
+						<div class="row mb-3">
+                    		<div class="col-md-12 row">
+                    			<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+								  <label class="form-check-label" for="flexCheckDefault">
+								    Thông tin xuất hóa đơn <br> <sup class="required">*</sup><i>(Xuất hóa đơn có VAT 10%)</i>
+								  </label>
+								</div>
+                    		</div>
+						</div>
+						<div class="row mb-3">
+						    <div class="col-md-12 row">
+                    			<label for="phone" class="col-sm-3 col-form-label">Tên công ty: <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off" id="phone">
+							    </div>
+                    		</div>
+                    	</div>
+						<div class="row mb-3">
+						    <div class="col-md-12 row">
+                    			<label for="phone" class="col-sm-3 col-form-label">Địa chỉ: <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off" id="phone">
+							    </div>
+                    		</div>
+                    	</div>
+                    	<div class="row mb-3">
+						    <div class="col-md-12 row">
+                    			<label for="phone" class="col-sm-3 col-form-label">Mã số thuế: <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" autocomplete="off" id="phone">
+							    </div>
+                    		</div>
+                    	</div>
+                    	<div class="row">
+						    <div class="col-md-12 row d-flex justify-content-center mt-3rem">
+						    	<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> Gửi </a></div>
+                    		</div>
+                    	</div>
+					</form>
 				</div>
 			</div>
 		</div>

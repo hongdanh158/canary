@@ -19,6 +19,15 @@
 					<div class="contact-name"><i class="far fa-phone-square-alt"></i> SỐ ĐIỆN THOẠI</div>
 					<div class="contact-info"><a href="tel:+ (84) 123 456 789">+ (84) 123 456 789</a></div>
 				</div>
+				<div class="col-md-4 contact-item d-flex align-items-center justify-content-center">
+					<div class="contact-name"><a href="#"><i class="fab fa-facebook"></i> FACEBOOK</a></div>
+				</div>
+				<div class="col-md-4 contact-item d-flex align-items-center justify-content-center">
+					<div class="contact-name"><a href="#"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM</a></div>
+				</div>
+				<div class="col-md-4 contact-item d-flex align-items-center justify-content-center">
+					<div class="contact-name"><a href="#"><i class="fab fa-youtube"></i> YOUTUBE</a></div>
+				</div>
 			</div>
 		</div>
 	</section>
