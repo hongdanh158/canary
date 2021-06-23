@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<meta content="minimum-scale=1.0, maximum-scale=2.0, width=device-width, user-scalable=yes" name="viewport" />
 	<title>Nha khoa Canary</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +21,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 	<script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="js/video/video.css">
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 </head>
 <body>
 <div class="slidebar">
@@ -116,7 +122,7 @@
 					      		<ul>
 							      	<li><a href="uu-dai-lien-ket-bao-hiem.php">Liên kết bảo hiểm</a></li>
 							      	<li><a href="uu-dai-lien-ket-ngan-hang.php">Liên kết trả góp ngân hàng</a></li>
-							      	<li><a href="uu-dai-dich-vu-nha-khoa.php">Dich vụ Nha khoa</a></li>
+							      	<li><a href="uu-dai-dich-vu-nha-khoa.php">Du lịch nha khoa</a></li>
 							      	<li><a href="uu-dai-khac.php">Ưu đãi cho Sinh viên</a></li>
 							      	<li><a href="uu-dai-khac.php#tu-hanh">Ưu đãi cho Quý tu hành</a></li>
 							    </ul>
@@ -180,7 +186,7 @@
 			        		<input type="password" name="password"  class="form-control" autocomplete="off" placeholder="Mật khẩu">
 			        	</div>
 			        	<div class="col-md-12 d-flex justify-content-center mt-3rem">
-			        		<button>ĐĂNG NHẬP</button>
+			        		<button>ĐĂNG KÝ</button>
 			        	</div>
 			        </div>
 				    <div class="row d-flex justify-content-center mt-3rem text-center text-white footer-link">

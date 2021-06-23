@@ -362,7 +362,7 @@
 	</section>
 	<section class="block block-partner">
 		<div class="d-flex justify-content-center">
-			<h2 class="block-title">ĐỐI TÁC CỦA NHA KHOA CANARY</h2>
+			<h2 class="block-title mt-6rem">ĐỐI TÁC CỦA NHA KHOA CANARY</h2>
 		</div>
 		<div class="block-content container">
 			<div class="partner-slider">

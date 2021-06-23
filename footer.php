@@ -72,8 +72,7 @@
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.countup.min.js"></script>
 <script src="js/video/video.js"></script>
-<link rel="stylesheet" href="js/video/video.css">
-<script type="text/javascript" src="js/slick/slick.min.js"></script>
+
 <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
 <script src="js/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.vn.js" charset="UTF-8"></script>

@@ -120,12 +120,12 @@
 								<li>Điều trị: Dùng sóng siêu âm rung bề mặt mặt vôi răng. Vôi răng vỡ ra từng mảnh và rơi ra khỏi mặt răng.</li>
 							</ul>
 						</div>
-						<a class="btn btn-outline-primary btn-hover-secondary" href="#">Xem chi tiết</a>
+						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal">Xem chi tiết</a>
 					</div>
 				</div>
 				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
-						<a href="#" class="thumbnail"><img src="images/nha-chu/2.png" alt=""></a>
+						<a href="#" class="thumbnail" data-bs-toggle="modal" data-bs-target="#modal" ><img src="images/nha-chu/2.png" alt=""></a>
 					</div>
 					<div class="right">
 						<div class="article-title">
@@ -137,7 +137,7 @@
 								<li>Điều trị: Dùng sóng siêu âm rung bề mặt mặt vôi răng. Vôi răng vỡ ra từng mảnh và rơi ra khỏi mặt răng.</li>
 							</ul>
 						</div>
-						<a class="btn btn-outline-primary btn-hover-secondary" href="#">Xem chi tiết</a>
+						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal" >Xem chi tiết</a>
 					</div>
 				</div>
 				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
@@ -154,7 +154,7 @@
 								<li>Điều trị: Dùng sóng siêu âm rung bề mặt mặt vôi răng. Vôi răng vỡ ra từng mảnh và rơi ra khỏi mặt răng.</li>
 							</ul>
 						</div>
-						<a class="btn btn-outline-primary btn-hover-secondary" href="#">Xem chi tiết</a>
+						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal" >Xem chi tiết</a>
 					</div>
 				</div>
 				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
@@ -265,6 +265,30 @@
                     </div>
                 </div>
             </div>
+		</div>
+		<div class="modal" id="modal" tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content modal-info modal-dialog-scrollable">
+					<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+					    <li class="breadcrumb-item"><a href="#">Chăm sóc răng đúng cách</a></li>
+					    <li class="breadcrumb-item active" aria-current="page">Khám răng định kỳ như thế nào?</li>
+					  </ol>
+					</nav>
+					<span type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></span>
+					<table>
+						<tr>
+							<td><img src="images/ex/thumbnail-1.png" alt="" width="120px" style="padding-right: 10px;"></td>
+							<td>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, maiores accusantium veniam? Enim nesciunt, soluta, minima saepe, exercitationem quod, libero aliquid delectus quo placeat ducimus molestias quasi. Assumenda dignissimos porro dolorum eaque. Doloribus totam at fugiat iusto rerum ducimus nesciunt voluptatem delectus id illum non quasi inventore aliquam, quos cum saepe. Laboriosam ea ex dicta optio sunt impedit assumenda magni sed earum similique praesentium, 
+							</td>
+						</tr>
+					</table> <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, maiores accusantium veniam? Enim nesciunt, soluta, minima saepe, exercitationem quod, libero aliquid delectus quo placeat ducimus molestias quasi. Assumenda dignissimos porro dolorum eaque. Doloribus totam at fugiat iusto rerum ducimus nesciunt voluptatem delectus id illum non quasi inventore aliquam, quos cum saepe. Laboriosam ea ex dicta optio sunt impedit assumenda magni sed earum similique praesentium, officiis repellendus delectus harum nam ullam eos. Asperiores possimus eum consequuntur minus soluta cum velit suscipit doloribus consectetur dicta, dolor obcaecati neque debitis ea? Consectetur qui beatae iste. Velit blanditiis atque dolor sit amet corporis ea vitae soluta fugiat. Odit ullam consequatur magnam illum accusantium nisi, corporis, accusamus! Excepturi ex cumque asperiores voluptatum sequi obcaecati id nemo aliquid repellendus optio molestiae exercitationem amet enim, aspernatur minus rem itaque animi iusto natus placeat pariatur? Mollitia in sequi quae. Quisquam est veritatis ipsa ipsam rerum, officia, illo iure consequatur nihil nisi fuga earum, blanditiis consequuntur, odio debitis officiis laudantium repellendus sed. Consectetur sit libero dolores et beatae inventore veritatis quia delectus vel explicabo dolore, eum nesciunt vero voluptas adipisci molestiae. Minima minus, et eaque quo at ab ullam accusantium similique consequatur quis, sunt harum veritatis dicta. Pariatur, eos?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, maiores accusantium veniam? Enim nesciunt, soluta, minima saepe, exercitationem quod, libero aliquid delectus quo placeat ducimus molestias quasi. Assumenda dignissimos porro dolorum eaque. Doloribus totam at fugiat iusto rerum ducimus nesciunt voluptatem delectus id illum non quasi inventore aliquam, quos cum saepe. Laboriosam ea ex dicta optio sunt impedit assumenda magni sed earum similique praesentium, officiis repellendus delectus harum nam ullam eos. Asperiores possimus eum consequuntur minus soluta cum velit suscipit doloribus consectetur dicta, dolor obcaecati neque debitis ea? Consectetur qui beatae iste. Velit blanditiis atque dolor sit amet corporis ea vitae soluta fugiat. Odit ullam consequatur magnam illum accusantium nisi, corporis, accusamus! Excepturi ex cumque asperiores voluptatum sequi obcaecati id nemo aliquid repellendus optio molestiae exercitationem amet enim, aspernatur minus rem itaque animi iusto natus placeat pariatur? Mollitia in sequi quae. Quisquam est veritatis ipsa ipsam rerum, officia, illo iure consequatur nihil nisi fuga earum, blanditiis consequuntur, odio debitis officiis laudantium repellendus sed. Consectetur sit libero dolores et beatae inventore veritatis quia delectus vel explicabo dolore, eum nesciunt vero voluptas adipisci molestiae. Minima minus, et eaque quo at ab ullam accusantium similique consequatur quis, sunt harum veritatis dicta. Pariatur, eos?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, maiores accusantium veniam? Enim nesciunt, soluta, minima saepe, exercitationem quod, libero aliquid delectus quo placeat ducimus molestias quasi. Assumenda dignissimos porro dolorum eaque. Doloribus totam at fugiat iusto rerum ducimus nesciunt voluptatem delectus id illum non quasi inventore aliquam, quos cum saepe. Laboriosam ea ex dicta optio sunt impedit assumenda magni sed earum similique praesentium, officiis repellendus delectus harum nam ullam eos. Asperiores possimus eum consequuntur minus soluta cum velit suscipit doloribus consectetur dicta, dolor obcaecati neque debitis ea? Consectetur qui beatae iste. Velit blanditiis atque dolor sit amet corporis ea vitae soluta fugiat. Odit ullam consequatur magnam illum accusantium nisi, corporis, accusamus! Excepturi ex cumque asperiores voluptatum sequi obcaecati id nemo aliquid repellendus optio molestiae exercitationem amet enim, aspernatur minus rem itaque animi iusto natus placeat pariatur? Mollitia in sequi quae. Quisquam est veritatis ipsa ipsam rerum, officia, illo iure consequatur nihil nisi fuga earum, blanditiis consequuntur, odio debitis officiis laudantium repellendus sed. Consectetur sit libero dolores et beatae inventore veritatis quia delectus vel explicabo dolore, eum nesciunt vero voluptas adipisci molestiae. Minima minus, et eaque quo at ab ullam accusantium similique consequatur quis, sunt harum veritatis dicta. Pariatur, eos?
+				</div>
+			</div>
 		</div>
 	</section>
 <?php include('footer.php') ?>

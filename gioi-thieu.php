@@ -97,7 +97,7 @@
 	</section>
 	<section class="block block-promotion block-about-campus">
 		<div class="d-flex justify-content-center">
-			<h2 class="block-title"> GIỚI THIỆU VỀ<span class="highlight">PHÒNG KHÁM</span></h2>
+			<h2 class="block-title"> GIỚI THIỆU VỀ <span class="highlight">PHÒNG KHÁM</span></h2>
 		</div>
 		<div class="block-content about-campus-content container">
 			<span class="prev about-campus-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>

@@ -1,86 +1,100 @@
 <?php include('header.php') ?>
-	<section class="block block-library background-light-primary">
+	<section class="block block-library">
 		<div class="container">
-			<div class="nav nav-pills nav-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-	            <a class="nav-link active" id="v-pills-user-tab" data-bs-toggle="pill" href="#tabtv-1" role="tab" aria-controls="tabtv-1" aria-selected="true">HÌNH ẢNH</a>
-	            <a class="nav-link" id="v-pills-pooblastila-tab" data-bs-toggle="pill" href="#tabtv-2" role="tab" aria-controls="#tabtv-2" aria-selected="false">VIDEO</a>
-	        </div>
-	        <div class="tab-content flex-grow-1" id="v-pills-tabContent">
-	            <div class="tab-pane fade show active row" id="tabtv-1" role="tabpanel" aria-labelledby="tabtv-1">
-	                <div class="col-md-12"><h3 class="title">TRƯỚC VÀ SAU ĐIỀU TRỊ</h3></div>
-	                <div class="row">
-	                	<div class="col-md-6">
-		                	<div class="library-slider">
-		                		<img src="images/library.png" alt="">
-		                		<img src="images/library.png" alt="">
-		                		<img src="images/library.png" alt="">
-		                	</div>
-		                	<div class="slider-caption">NIỀNG RĂNG</div>
-		                </div>
-		                <div class="col-md-6">
-		                	<div class="library-slider">
-		                		<img src="images/library.png" alt="">
-		                		<img src="images/library.png" alt="">
-		                		<img src="images/library.png" alt="">
-		                	</div>
-		                	<div class="slider-caption">NIỀNG RĂNG</div>
-		                </div>
+			<div class="block-content row" style="max-width: 850px; margin: 0 auto;">
+				<div class="d-flex justify-content-center">
+					<h2 class="block-title"><span class="highlight">HÌNH ẢNH</span></h2>
+				</div>
+				<div class="col-md-12 mb-3rem"><h3 class="title"><strong>TRƯỚC VÀ SAU ĐIỀU TRỊ</strong></h3></div>
+                <div class="row">
+                	<div class="col-md-6">
+	                	<div class="library-slider">
+	                		<img src="images/library.png" alt="">
+	                		<img src="images/library.png" alt="">
+	                		<img src="images/library.png" alt="">
+	                	</div>
+	                	<div class="slider-caption">NIỀNG RĂNG</div>
 	                </div>
-	                <div class="row ">
-	                	<nav class="d-flex justify-content-center" aria-label="Page navigation example">
-							<ul class="pagination">
-							    <li class="page-item disabled">
-							      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Trước</a>
-							    </li>
-							    <li class="page-item"><a class="page-link" href="#">1</a></li>
-							    <li class="page-item active" aria-current="page">
-							      <a class="page-link" href="#">2</a>
-							    </li>
-							    <li class="page-item"><a class="page-link" href="#">3</a></li>
-							    <li class="page-item">
-							      <a class="page-link" href="#">Sau</a>
-							    </li>
-							</ul>
-						</nav>
+	                <div class="col-md-6">
+	                	<div class="library-slider">
+	                		<img src="images/library.png" alt="">
+	                		<img src="images/library.png" alt="">
+	                		<img src="images/library.png" alt="">
+	                	</div>
+	                	<div class="slider-caption">NIỀNG RĂNG</div>
 	                </div>
-	            </div>
-	            <div class="tab-pane fade row" id="tabtv-2" role="tabpanel" aria-labelledby="tabtv-2">
-	            	<div class="video-library-container">
-	            		<span class="prev video-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
-						<span class="next video-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
-	            		<div class="video-slider">
-	            			<div class="video-item">
-	            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
-	            			</div>
-	            			<div class="video-item">
-	            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ki_gs57YISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            				<div class="video-title">ĐÃ SỦ DỤNG DỊCH VỤ: NIỀNG RĂNG</div>
-	            			</div>
-	            			<div class="video-item">
-	            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/NGDrVANO2fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
-	            			</div>
-	            		</div>
-	            	</div>
-	            	
-	            </div>
-	        </div>
+                </div>
+			</div>
+			<div class="block-content row mt-6rem" style="max-width: 850px; margin: 0 auto;">
+				<div class="d-flex justify-content-center">
+					<h2 class="block-title"><span class="highlight">VIDEO</span></h2>
+				</div>
+                <div class="video-library-container">
+            		<span class="prev video-slider-prev-1"><i class="fal fa-angle-left fa-6x"></i></span>
+					<span class="next video-slider-next-1"><i class="fal fa-angle-right fa-6x"></i></span>
+            		<div class="video-slider-1">
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
+            			</div>
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ki_gs57YISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">ĐÃ SỬ DỤNG DỊCH VỤ: NIỀNG RĂNG</div>
+            			</div>
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/NGDrVANO2fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
+            			</div>
+            		</div>
+            		<script>
+            			$('.video-slider-1').not('.slick-initialized').slick({
+							autoplay: true,
+							fade : true,
+							adaptiveHeight: true,
+							prevArrow: $('.video-slider-prev-1'),
+						  	nextArrow: $('.video-slider-next-1'),
+						});
+            		</script>		
+            	</div>
+            	<div class="video-library-container">
+            		<span class="prev video-slider-prev-2"><i class="fal fa-angle-left fa-6x"></i></span>
+					<span class="next video-slider-next-2"><i class="fal fa-angle-right fa-6x"></i></span>
+            		<div class="video-slider-2">
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
+            			</div>
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ki_gs57YISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">ĐÃ SỬ DỤNG DỊCH VỤ: NIỀNG RĂNG</div>
+            			</div>
+            			<div class="video-item">
+            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/NGDrVANO2fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
+            			</div>
+            		</div>
+            		<script>
+            			$('.video-slider-2').not('.slick-initialized').slick({
+							autoplay: true,
+							fade : true,
+							adaptiveHeight: true,
+							prevArrow: $('.video-slider-prev-2'),
+						  	nextArrow: $('.video-slider-next-2'),
+						});
+            		</script>		
+            	</div>
+			</div>
 		</div>
-		
 	</section>
-	<section class="block block-service">
+	<section class="block block-service background-light-primary">
 		<div class="d-flex justify-content-center">
 			<h2 class="block-title">DỊCH VỤ <span class="highlight">CANARY</span></h2>
 		</div>
 		<div class="title-description">KHÁM & TƯ VẤN MIỄN PHÍ <br> CAM KẾT CHẤT LƯỢNG ĐIỀU TRỊ</div>
 		<div class="line"></div>
-		<div class="block-content container "  style="margin-top: 5rem;">
+		<div class="block-content container " style="margin-top: 5rem;">
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">01</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/nha-chu.png" alt=""></div>
 				<h3 class="service-name">Nha Chu</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -88,10 +102,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">02</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/tay-trang-rang.png" alt=""></div>
 				<h3 class="service-name">Tẩy trắng răng</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -99,10 +110,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-orgran">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">03</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/phuc-hoi.png" alt=""></div>
 				<h3 class="service-name">Phục hồi</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -110,10 +118,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-primary">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">04</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/phuc-hinh-su.png" alt=""></div>
 				<h3 class="service-name">Phục hình sứ</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -121,10 +126,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">05</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/ham-thao-lap.png" alt=""></div>
 				<h3 class="service-name">Hàm tháo lắp</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -132,10 +134,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-info">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">06</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/nho-rang-tieu-phau.png" alt=""></div>
 				<h3 class="service-name">Nhổ răng, Tiểu phẫu</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -143,10 +142,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-success">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">07</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/chinh-nha.png" alt=""></div>
 				<h3 class="service-name">Chỉnh nha</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -154,10 +150,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">08</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/cay-ghep-implant.png" alt=""></div>
 				<h3 class="service-name">Cấy ghép Implant</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -165,10 +158,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-blue">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">09</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/khop-can.png" alt=""></div>
 				<h3 class="service-name">Khớp cắn</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
@@ -176,10 +166,7 @@
 				<div><a class="btn btn-outline-primary" href="#"> Tìm hiểu thêm</a></div>
 			</div>
 			<div class="service-item aign-items-center">
-				<div class="number text-red">
-					<span class="icon icon-ellipse-01"></span>
-					<span class="text">10</span>
-				</div>
+				<div class="ab-icon"><img src="images/icon/dieu-tri-khac.png" alt=""></div>
 				<h3 class="service-name">Điều trị khác</h3>
 				<div class="service-desciption">
 					Phục hồi khả năng nhai, giúp răng chắc khỏe, săn chắc.
