@@ -1,3 +1,9 @@
+$(window).on('load', function(event) {
+	loadMobileMenu();
+});
+$(window).on('resize', function(){
+    loadMobileMenu();
+});
 $(function() {
 	//Menu
 	if ($('.main-nav').length) {
@@ -60,9 +66,9 @@ $(function() {
 	if ($('.slider').length) {
 		$('.slider').not('.slick-initialized').slick({
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			fade : true,
-			adaptiveHeight: true,
+			adaptiveHeight: false,
 			prevArrow: $('.main-slider-prev'),
 		  	nextArrow: $('.main-slider-next'),
 		});
@@ -70,9 +76,9 @@ $(function() {
 	if ($('.promotion-banner').length) {
 		$(".promotion-banner").not('.slick-initialized').slick({
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			arrows : false,
-			adaptiveHeight: true,
+			adaptiveHeight: false,
 		});
 	}
 	if ($('.promotion-slider').length) {
@@ -150,7 +156,7 @@ $(function() {
 	if ($('.partner-slider').length) {
 		$('.partner-slider').not('.slick-initialized').slick({
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			infinite: false,
 			speed: 300,
 			slidesToShow: 3,
@@ -183,7 +189,7 @@ $(function() {
 	if ($('.certificate-slider').length) {
 		$('.certificate-slider').not('.slick-initialized').slick({
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			infinite: false,
 			speed: 300,
 			slidesToShow: 4,
@@ -216,7 +222,7 @@ $(function() {
 	if ($('.library-slider').length) {
 		$('.library-slider').not('.slick-initialized').slick({
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			infinite: false,
 			arrows: false,
 			speed: 300,
@@ -224,10 +230,10 @@ $(function() {
 	};
 	if ($('.about-campus-slider').length) {
 		$('.about-campus-slider').not('.slick-initialized').slick({
-			autoplay: true,
+			autoplay: false,
 			fade : true,
 			// arrows : false,
-			adaptiveHeight: true,
+			adaptiveHeight: false,
 			prevArrow: $('.about-campus-slider-prev'),
 		  	nextArrow: $('.about-campus-slider-next'),
 		});
@@ -285,4 +291,23 @@ $('.bubble-buttons .main-icon').click(function (e) {
 $('#register-form-show').click(function (e) {
 	$('#login-form').modal('toggle')
 	$('#register-form').modal('toggle')
+});
+function loadMobileMenu() {
+	if ($(window).width() <= 1280) {
+		var html = "<ul>" + $('.main-nav ul').html() + "</ul>";
+		$('.mobile-nav').html(html);
+	}
+}
+$('.js-menu-mobile').click(function (e) {
+	
+	if ($('.mobile-menu-wraper').hasClass('show')) {
+		$('.mobile-menu-wraper').removeClass('show');
+		$('body').removeAttr('style');
+		$('.three-bars-icon').removeClass('close');
+	}
+	else {
+		$('.mobile-menu-wraper').addClass('show');
+		$('body').css('overflow', 'hidden');
+		$('.three-bars-icon').addClass('close');
+	}	
 });

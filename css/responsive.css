@@ -1,3 +1,397 @@
 @media (max-width: 1280px) {
-	
+	.nav-desktop, .search-desktop {
+		display: none;
+	}
+	.header .bottom .logo {
+		width: 205px;
+	}
+	.header .bottom .logo a {
+		vertical-align: -13px;
+	}
+	.js-menu-mobile {
+		display: block;
+	}
+	.header .bottom .mobile-search .search::before {
+		display: none;
+	}
+	.header .top {
+		padding-top: 20px;
+	}
+	.header .top .time, .header .top .language {
+		display: none;
+	}
+	.header .top .socical .item:first-child {
+		display: none;
+	}
+	.bubble-buttons {
+		bottom: 2rem;
+		right: 2rem;
+	}
+	.block-tree-box .box {
+		width: 32%;
+    	margin-right: 2%;
+	}
+	.block-tree-box .box:last-child {
+		margin-right: 0;
+	}
+	.header .top .mobile-language, .header .top .mobile-space {
+	    display: block;
+	}
+}
+@media (max-width: 1000px) {
+	.modal.show .modal-dialog {
+		max-width: 100%;
+	}
+	.mt-6rem {
+		margin-top: 2rem;
+	}
+	.slider .slide .text {
+	    width: 400px;
+	    top: 5%;
+	    left: 5%;
+	    border-radius: 1rem;
+	    padding: 1.5rem;
+	}
+	.slider .slide .text .text-one {
+		font-size: 1.4rem;
+	}
+	.slider .slide .text .text-tow {
+		font-size: 2rem;
+		line-height: 1.2;
+		margin-bottom: 2rem;
+	}
+	.slider .slide .line {
+		display: none;
+	}
+	.slider .slide .text .text-three {
+		display: none;
+	}
+	.block-tree-box .box {
+		margin-top: -1rem;
+	}
+	.block-tree-box .box .number {
+		text-align: center;	
+	}
+	.block-tree-box .box .text {
+		text-align: center;	
+	}
+	.block .block-title {
+		font-size: 1.6rem;
+		line-height: 10rem;
+		margin-bottom: 2rem;
+		margin-top: 0;
+	}
+	.video-wrapper {
+		margin-bottom: 2rem;
+	}
+	.block-subtitle {
+		font-size: 1.6rem;
+		line-height: 30px;
+		text-align: center;
+	}
+	.block .sub-content{
+		text-align: center;
+	}
+	.block .sub-content li {
+		text-align: left;
+		margin-left: 4rem;
+	}
+	.title-description, .block-promotion .title-description {
+		height: 70px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		line-height: 1.5;
+		font-size: 1.2rem;
+		margin-bottom: 2rem;
+	}
+	.block-appointment .nav-fill .nav-item, .nav-fill>.nav-link {
+		font-size: 1.6rem;
+	}
+	.block-appointment .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+		font-size: 1.6rem;
+	}
+	.block-footer {
+		margin-bottom: 2rem;
+	}
+	.block-footer .google-map iframe {
+		width: 100% !important;
+	}
+	.block-footer div.text-item span, .block-footer div.text-item a, .block-footer .sub-footer p {
+		font-size: 1rem;
+	}
+	.clear.mt-6rem {
+		margin-top: 2rem;
+	}
+	.block-footer .socical {
+		margin-bottom: 2rem;
+	}
+	.block-appointment {
+		margin-top: 0rem;
+		padding-top: 3rem;
+	}
+	.appointment-content {
+		margin-top: 3rem;
+	}
+	.block-appointment .tab-content {
+		padding: 1.5rem	
+	}
+	.appointment-content .tab-content .row {
+		margin-bottom: 1rem !important;
+	}
+	.block-about-us .thumbnail {
+		margin-bottom: 2rem;
+	}
+	.block-about-us .thumbnail img {
+		margin-bottom: 2rem;
+	}
+	.about-content div, .about-content .text-description {
+		margin-bottom: 2rem;
+	}
+	.block-doctor .doctor-content {
+		padding: 0 3rem;
+	}
+	.block-doctor .doctor-title, .block-doctor .doctor-name {
+		font-size: 1.6rem !important;
+		
+	}
+	.block-doctor .doctor-name  {
+	 	margin-bottom: 2rem;
+	}
+	.block-doctor .block-content .dr-logo {
+		text-align: center;
+		right: -55px;
+	}
+	.block-doctor .block-content .dr-logo img {
+		width: 80px;
+	}
+	.block-doctor .thumbnail img {
+		width: 	200px;
+		right:  -50px;
+	}
+	.block-doctor.block-policy .thumbnail img {
+		width: 	200px;
+		right:  0;
+	}
+	.block-policy .block-content {
+		font-size: 1.2rem;
+	}
+	.block-policy .block-content .doctor-content .text-description {
+		height: 70px;
+		overflow: hidden
+	}
+	.block-doctor.block-policy  .doctor-name {
+		margin-bottom: 2rem;
+		margin-top: 0;
+	}
+	.block-policy .logo .logo-text a {
+		font-size: 1rem;
+	}
+	.block-policy .logo h1 .since {
+		font-size: .8rem;
+	}
+	.block-policy .logo {
+		margin-top: 1rem;
+	}
+	.block-doctor.block-policy .doctor-content {
+		padding: 0 3rem !important;
+		margin-bottom: 0;
+	}
+	.block-doctor.block-policy {
+		padding-bottom: 2rem;
+	}
+	.block-doctor .education {
+		width: 70%;
+	}
+	.block-service-article-title span {
+		font-size: 1.6rem;
+		top: -2.3rem;
+	}
+	.block-service-article-item  .thumbnail {
+		width: 100%;
+	}
+	.block-service-article-item  .thumbnail  img {
+		width: 100%;
+	}
+	.customer-information-conent .header-form {
+		padding: 1.5rem;
+		font-size: 1rem;
+	}
+	.customer-information-conent .header-form .customer-id, .customer-information-conent .header-form .note {
+		font-size: 1rem;
+	}
+	.customer-information-conent-block {
+		padding: 1.5rem;
+		font-size: 1.2rem;
+	}
+	.customer-information-conent .header-title {
+		margin:  1rem 0;
+		font-size: 1.2rem;
+	}
+	.customer-information-conent .btn {
+		min-width: 0;
+		font-size: 1.2rem;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.col-md-12.mt-3rem {
+		margin-top: 0;
+	}
+	.customer-table-content {
+	    padding: 0; 
+	}
+	.list-insurrance .item {
+	    padding: 0 2rem;
+	    margin-bottom: 3rem;
+	}
+	.list-bank .item {
+		width: 45%;
+		margin-right: 10%;
+		padding: 1rem;
+		margin-bottom: 3rem;
+	}
+	.list-bank .item a {
+		box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	}
+	.list-bank .item:nth-child(2n) {
+		margin-right: 0;
+	}
+	.list-bank .item:nth-child(5n) {
+		margin-right: 10%;
+	}
+	.list-bank .item:nth-child(10n) {
+		margin-right: 0;
+	}
+	.title-2 {
+		margin-left: 3rem;
+		margin-bottom: 1rem;
+	}
+	.block-dental-knowledge .tab-title, .block-dental-knowledge .content-title {
+		margin-bottom: 0;
+	}
+	.knowledge-content {
+		padding-left: 0;
+	}
+	.knowledge-tab {
+		border-right: 0;
+	}
+	.block-dental-knowledge .nav-tabs .nav-link {
+		white-space: nowrap;
+		padding: 0;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+	.block-dental-knowledge .nav-tabs {
+		display: flex;
+  		flex-wrap: nowrap;
+  		overflow-y: scroll;
+	}
+	.block-dental-knowledge .nav-tabs .nav-item {
+		display: inline;
+	}
+	.block-dental-knowledge .nav-tabs .nav-item.show .nav-link, .block-dental-knowledge .nav-tabs .nav-link.active {
+		border-bottom: 2px solid #FFAA00;
+	}
+	.modal.show .modal-dialog {
+		padding: 1.5rem
+	}
+	.modal-content .breadcrumb {
+		display: none;
+	}
+	.modal-content.modal-info {
+		padding: 1rem;
+		padding-left: 1.5rem;
+		padding-top: 2rem;
+		border: 0;
+	}
+	.modal .btn-close {
+		right: 5px;
+		top: 0;
+	}
+}
+@media (max-width: 575px) {
+	.slider .slide .text {
+	    width: 200px;
+	    padding: 0.5rem
+	}
+	.slider .slide .btn {
+		font-size: 1.2rem;
+	}
+	.header .bottom .logo {
+		display: flex;
+		flex-direction: row
+	}
+	.slider .slide .text .text-tow {
+		font-size: 2rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+	}
+	.block-tree-box .box .number {
+		font-size: 3rem;
+	}
+	.main-slider .slick-dots {
+		bottom: 0rem;
+	}
+	.main-slider.main-page .slick-dots {
+		bottom: -18rem;
+	}
+	.block .block-title {
+		line-height: 6rem;
+		margin-bottom: 2rem;
+		margin-top: 0;
+	}
+	.service-item {
+		width: 45%;
+		margin-right: 10%;
+		margin-bottom: 10%;
+	}
+	.service-name {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.service-item:nth-child(2n) {
+		margin-right: 0;
+	}
+	.service-item:nth-child(5n) {
+		margin-right: 10%;
+	}
+	.service-item:nth-child(10n) {
+		margin-right: 0;
+	}
+	.slick-arrow i {
+		font-size: 6rem;
+	}
+	.promotion-slider, .comments-slider, .certificate-content {
+		max-width: 300px;
+	}
+	.block-content .next, .block-content .prev {
+		opacity: 1;
+	}
+	.about-campus-slider {
+		width: 	300px;
+	}
+	.block-about-campus .block-content .next, .block-about-campus .block-content .prev {
+		top: 5%;
+	}
+	.block-service .block-title {
+		margin-bottom: 3rem;
+	}
+	.block-content {
+		margin-top: 2rem !important;
+	}
+	.block-policy .block-content {
+		padding-top: 0 !important;
+	}
+	.block-customer-information .text-description {
+		height: 70px;
+		overflow: hidden
+	}
+	.thumbnail-article {
+	    margin-right: 10px;
+	    width: 100%;
+	    margin-top: 3rem;
+	}
+	.thumbnail-article img {
+		width: 100%;
+	}
 }

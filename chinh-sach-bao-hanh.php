@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 	<section class="block block-doctor block-policy border-bottom-primary-2px">
 		<div class="block-content container row d-flex align-items-stretch">
-			<div class="col col-6">
+			<div class="col col-8 col-md-6">
 				<div class="doctor-content">
 					<h2 class="doctor-name">CHÍNH SÁCH CỦA CANARY</h2>
 					<div class="text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
@@ -13,7 +13,7 @@
 				    </div>
 				</div>
 			</div>
-			<div class="col col-6 thumbnail">
+			<div class="col col-4 col-md-6 thumbnail">
 				<img src="images/chinh-sach.png" alt="">
 			</div>
 		</div>

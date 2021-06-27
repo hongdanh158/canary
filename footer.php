@@ -1,6 +1,6 @@
 	<footer class="footer">
 		<div class="container row">
-			<div class="block-footer col col-12">
+			<div class="block-footer col col-md-12">
 				<div class="logo d-flex flex-row justify-content-start">
 			     	<a href="index.php"><img src="images/logo.png" alt=""></a>
 			     	<h1 class="logo-text">
@@ -9,8 +9,8 @@
 			     	</h1>
 			    </div>
 			</div>
-			<div class="block-footer col col-6 row">
-				<div class="block-footer col col-6">
+			<div class="block-footer col-md-6 col-sm-12 row">
+				<div class="col-md-6 col-sm-6 col-6">
 					<div class="title">Thời gian làm việc</div>
 					<div class="license">
 						<div class="text-item"><span>Từ thứ Hai - thứ Bảy</span></div>
@@ -22,7 +22,7 @@
 						<p><i class="fal fa-envelope fa-fw"></i> infor@example.com</p>
 					</div>
 				</div>
-				<div class="block-footer col col-6">
+				<div class="col-md-6 col-sm-6 col-6">
 					<div class="title">Liên kết</div>
 					<div class="license">
 						<div class="text-item "><a href="#">Liên kết trả góp ngân hàng</a></div>
@@ -30,25 +30,25 @@
 					</div>
 				</div>
 				<div class="clear mt-6rem"></div>
-				<div class="block-footer col col-6">
+				<div class="col-md-6 col-sm-12 ">
 					<div class="title">Mạng xã hội</div>
 					<div class="socical">
-				      	<div class="item"><a href="#"><img src="images/icon/fb.png" alt=""></a></div>
-				      	<div class="item"><a href="#"><img src="images/icon/yt.png" alt=""></a></div>
-				      	<div class="item"><a href="#"><img src="images/icon/in.png" alt=""></a></div>
+				      	<div class="item"><a href="#"><img src="images/icon/fb.svg" alt=""></a></div>
+				      	<div class="item"><a href="#"><img src="images/icon/yt.svg" alt=""></a></div>
+				      	<div class="item"><a href="#"><img src="images/icon/in.svg" alt=""></a></div>
 				    </div>
 				</div>
-				<div class="block-footer col col-6">
+				<div class="col-md-6 col-sm-12 ">
 					<div class="title">Tuyển dụng</div>
 					<div class="content">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit aliquid dolor natus ducimus nihil est delectus laboriosam quisquam. Cum, odit modi ipsa dicta eum doloribus perspiciatis perferendis alias. Quidem.
 					</div>
 				</div>
 			</div>
-			<div class="block-footer col col-6">
+			<div class="block-footer col-md-6 col-sm-12 ">
 				<div class="license">
-					<div class="text-item d-flex justify-content-end"><a href="#">Giấy Phép Công Ty</a></div>
-					<div class="text-item d-flex justify-content-end"><a href="#">Giấy Phép Y Tế</a></div>
+					<div class="text-item d-flex justify-content-lg-end"><a href="#">Giấy Phép Công Ty</a></div>
+					<div class="text-item d-flex justify-content-lg-end"><a href="#">Giấy Phép Y Tế</a></div>
 				</div>
 				<div class="google-map d-flex justify-content-end">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6420148974426!2d106.7053582148007!3d10.762048492331289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f693726eb13%3A0xe71f0953c4091d6d!2zMTIgxJDGsOG7nW5nIFTDtG4gxJDhuqNuLCBQaMaw4budbmcgMTMsIFF14bqtbiA0LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAw!5e0!3m2!1svi!2s!4v1623832588198!5m2!1svi!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -77,5 +77,5 @@
 <script src="js/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.vn.js" charset="UTF-8"></script>
 <script type="text/javascript" src="js/play-video.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js?v=2"></script>
 </html>

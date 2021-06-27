@@ -7,7 +7,7 @@
 			<div class="sub-title d-flex justify-content-center">Ưu đãi lưu trú hệ thống &nbsp; <img src="images/saigontourist.png" alt=""></div>
 			<div class="line"></div>
 			<div class="title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-			<div class="mt-6rem" style="margin-left: 15rem; margin-bottom: 4rem; font-size: 2.4rem;"><strong>MIỀN NAM:</strong></div>
+			<div class="mt-6rem title-2"><strong>MIỀN NAM:</strong></div>
 			<div class="block-content container">
 				<span class="prev trevel-slider-prev-1"><i class="fal fa-angle-left fa-6x"></i></span>
 				<span class="next trevel-slider-next-1"><i class="fal fa-angle-right fa-6x"></i></span>
@@ -131,7 +131,7 @@
 				});
 			</script>
 			
-			<div class="mt-6rem" style="margin-left: 15rem; margin-bottom: 4rem; font-size: 2.4rem;"><strong>MIỀN TRUNG:</strong></div>
+			<div class="mt-6rem title-2"><strong>MIỀN TRUNG:</strong></div>
 			<div class="block-content container">
 				<span class="prev trevel-slider-prev-2"><i class="fal fa-angle-left fa-6x"></i></span>
 				<span class="next trevel-slider-next-2"><i class="fal fa-angle-right fa-6x"></i></span>
@@ -254,7 +254,7 @@
 					});
 				});
 			</script>
-			<div class="mt-6rem" style="margin-left: 15rem; margin-bottom: 4rem; font-size: 2.4rem;"><strong>MIỀN BẮC:</strong></div>
+			<div class="mt-6rem title-2"><strong>MIỀN BẮC:</strong></div>
 			<div class="block-content container">
 				<span class="prev trevel-slider-prev-3"><i class="fal fa-angle-left fa-6x"></i></span>
 				<span class="next trevel-slider-next-3"><i class="fal fa-angle-right fa-6x"></i></span>

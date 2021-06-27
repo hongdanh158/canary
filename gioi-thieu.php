@@ -5,12 +5,12 @@
 		</div>
 		<div class="line"></div>
 		<div class="block-content container row">
-			<div class="col col-6">
+			<div class="col col-12 col-md-6">
 				<div class="thumbnail">
 					<img src="images/about-us.png" alt="About us">
 				</div>
 			</div>
-			<div class="col col-6">
+			<div class="col col-12 col-md-6">
 				<div class="about-content">
 					<h2 class="title">ĐỊNH HƯỚNG</h2>
 					<div class="text-description">Chúng tôi xem việc chăm sóc và bảo vệ sức khỏe, bảo vệ nụ cười của người Việt là trọng trách, là ý trí lớn và là niềm tự hào dân tộc trong mỗi CBNV trong công ty, đặc biệt là các Y/ Bác sĩ người trực tiếp kiến tạo giá trị và giữ gìn bản sắc văn hoá của người Việt.</div>
@@ -36,7 +36,7 @@
 	<section class="block block-doctor background-light-primary">
 		<div class="block-content container row d-flex align-items-stretch border-bottom-primary-2px">
 			<div class="dr-logo"><img src="images/canary-dental-logo-2.png" alt=""></div>
-			<div class="col col-6">
+			<div class="col col-12 col-md-6">
 				<div class="doctor-content">
 					<div class="doctor-title">Bác sĩ Chuyên khoa</div>
 					<div class="doctor-name">NGUYỄN THỊ THU YẾN</div>
@@ -44,10 +44,10 @@
 					<div class="text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 
 					<h3 class="title">HỌC VẤN</h2>
-					<div class="text-description mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					<div class="text-description mb-0 education">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 				</div>
 			</div>
-			<div class="col col-6 thumbnail">
+			<div class="col col-12 col-md-6 thumbnail">
 				<img src="images/doctor-01.png" alt="Bác sĩ Chuyên khoa NGUYỄN THỊ THU YẾN">
 			</div>
 		</div>
@@ -103,9 +103,9 @@
 			<span class="prev about-campus-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
 			<span class="next about-campus-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
 			<div class="about-campus-slider">
-				<a href="#"><img src="images/abotu-campus-01.png" alt=""></a>
-				<a href="#"><img src="images/abotu-campus-01.png" alt=""></a>
-				<a href="#"><img src="images/abotu-campus-01.png" alt=""></a>
+				<div><a href="#"><img src="images/abotu-campus-01.png" alt=""></a></div>
+				<div><a href="#"><img src="images/abotu-campus-01.png" alt=""></a></div>
+				<div><a href="#"><img src="images/abotu-campus-01.png" alt=""></a></div>
 			</div>
 			<div class="about-campus-main-content" style="margin-top: 3rem;">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

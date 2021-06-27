@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-	<section class="main-slider">
+	<section class="main-slider service-page">
 		<span class="prev main-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
 		<span class="next main-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
 		<div class="slider">
@@ -106,7 +106,7 @@
 				</div>
 			</div>
 			<div class="block-service-article-list container">
-				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
+				<div class="block-service-article-item d-lg-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
 						<a href="#" class="thumbnail"><img src="images/nha-chu/1.png" alt=""></a>
 					</div>
@@ -123,7 +123,7 @@
 						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal">Xem chi tiết</a>
 					</div>
 				</div>
-				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
+				<div class="block-service-article-item d-lg-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
 						<a href="#" class="thumbnail" data-bs-toggle="modal" data-bs-target="#modal" ><img src="images/nha-chu/2.png" alt=""></a>
 					</div>
@@ -140,7 +140,7 @@
 						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal" >Xem chi tiết</a>
 					</div>
 				</div>
-				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
+				<div class="block-service-article-item d-lg-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
 						<a href="#" class="thumbnail"><img src="images/nha-chu/3.png" alt=""></a>
 					</div>
@@ -157,7 +157,7 @@
 						<a class="btn btn-outline-primary btn-hover-secondary" href="#" data-bs-toggle="modal" data-bs-target="#modal" >Xem chi tiết</a>
 					</div>
 				</div>
-				<div class="block-service-article-item d-flex flex-sm-column flex-md-row flex-xs-column">
+				<div class="block-service-article-item d-lg-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
 						<a href="#" class="thumbnail"><img src="images/nha-chu/4.png" alt=""></a>
 					</div>

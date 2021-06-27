@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-	<section class="main-slider">
+	<section class="main-slider index-page">
 		<span class="prev main-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
 		<span class="next main-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
 		<div class="slider">
@@ -27,15 +27,15 @@
 	</section>
 	<section class="block block-tree-box container">
 		<div class="block-content d-flex justify-content-center">
-			<div class="box d-flex justify-content-start align-items-center">
+			<div class="box d-lg-flex flex-lg-row align-items-center">
 				<div class="number counter" data-counter-time="2000" data-counter-delay="10">14</div>
 				<div class="text">NĂM KINH NGHIỆM</div>
 			</div>
-			<div class="box d-flex justify-content-start align-items-center">
+			<div class="box d-lg-flex flex-lg-row align-items-center">
 				<div class="number counter" data-counter-time="2000" data-counter-delay="10">6</div>
 				<div class="text">NĂM THÀNH LẬP</div>
 			</div>
-			<div class="box d-flex justify-content-start align-items-center">
+			<div class="box  d-lg-flex flex-lg-row align-items-center">
 				<div class="number counter" data-counter-time="2000" data-counter-delay="10">1036</div>
 				<div class="text">KHÁCH HÀNG</div>
 			</div>
@@ -45,7 +45,7 @@
 		</div>
 		<div class="line mt-3rem"></div>
 		<div class="block-content row">
-			<div class="col col-6">
+			<div class="col-md-6 col-sm-12">
 				<div class="video-wrapper">
 					<div class="video-wrapper-inner">
 						<div class="video">
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col col-6 description">
+			<div class="col-md-6 col-sm-12 description">
 				<div class="block-subtitle">NÂNG CAO <br>
 				<span class="highlight">CHẤT LƯỢNG ĐIỀU TRỊ</span></div>
 				<div class="sub-content">
@@ -75,7 +75,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="block block-service">
+	<section class="block block-service background-light-primary">
 		<div class="d-flex justify-content-center">
 			<h2 class="block-title">DỊCH VỤ <span class="highlight">CANARY</span></h2>
 		</div>
