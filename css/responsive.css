@@ -39,6 +39,15 @@
 	}
 }
 @media (max-width: 1000px) {
+	body {
+	    padding-top: 130px;
+	}
+	.header {
+		top: 0;
+		left: 0;
+	    position: fixed;
+	    z-index: 100;
+	}
 	.modal.show .modal-dialog {
 		max-width: 100%;
 	}

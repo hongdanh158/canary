@@ -11,14 +11,14 @@
 			</div>
 		</div>
 	</section>
-	<section class="block block-service">
+	<section class="block block-service service-page">
 		<div class="d-flex justify-content-center">
 			<h2 class="block-title">CÁC DỊCH VỤ CỦA <span class="highlight">CANARY</span></h2>
 		</div>
 		<div class="line"></div>
 		<div class="block-content container" style="max-width: 1185px;">
 			<div class="service-item active aign-items-center text-center">
-				<div class="number">
+				<div class="number text-red">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">01</span>
 				</div>
@@ -26,7 +26,7 @@
 				<h3 class="service-name"><a href="#">Nha Chu</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-blue">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">02</span>
 				</div>
@@ -34,7 +34,7 @@
 				<h3 class="service-name"><a href="#">Tẩy trắng răng</a></h3>
 			</div>
 			<div class="service-item aign-items-cente text-center">
-				<div class="number">
+				<div class="number text-orgran">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">03</span>
 				</div>
@@ -42,7 +42,7 @@
 				<h3 class="service-name"><a href="#">Phục hồi</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-primary">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">04</span>
 				</div>
@@ -50,7 +50,7 @@
 				<h3 class="service-name"><a href="#">Phục hình sứ</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-success">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">05</span>
 				</div>
@@ -58,7 +58,7 @@
 				<h3 class="service-name"><a href="#">Hàm tháo lắp</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-info">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">06</span>
 				</div>
@@ -66,7 +66,7 @@
 				<h3 class="service-name"><a href="#">Nhổ răng, Tiểu phẫu</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-primary">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">07</span>
 				</div>
@@ -74,7 +74,7 @@
 				<h3 class="service-name"><a href="#">Chỉnh nha</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number text-success">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">08</span>
 				</div>
@@ -90,7 +90,7 @@
 				<h3 class="service-name"><a href="#">Khớp cắn</a></h3>
 			</div>
 			<div class="service-item aign-items-center text-center">
-				<div class="number">
+				<div class="number  text-blue">
 					<span class="icon icon-ellipse-01"></span>
 					<span class="text">10</span>
 				</div>

@@ -33,8 +33,9 @@ body {
    font-weight: bold;
 }
 .btn-outline-primary:hover {
-    border: 1px solid #23A5A5;
-    background-color: #23A5A5;
+    color: #333;
+    border: 1px solid #ffaa00;
+    background-color: #ffaa00;
 }
 .btn-hover-secondary:hover {
     border: 1px solid #ffaa00;
@@ -180,10 +181,11 @@ a i {
 }
 /*menu mobile*/
 .js-menu-mobile {
+    display: none;
     position: absolute;
-    right: 4rem;
+    right: 3rem;
     top: 2rem;
-    background-color: transparent;
+    background-color: #fff;
     width: 46px;
     height: 44px;
     z-index: 9999;
@@ -293,6 +295,14 @@ a i {
 }
 .vjs-default-skin.vjs-playing .vjs-control, .vjs-default-skin.vjs-playing .vjs-time-divider   {
     opacity: 1;
+}
+#main-page {
+    position:  relative;
+}
+.header {
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
 }
 .header .container {
     max-width: 1300px !important;
@@ -484,7 +494,7 @@ a i {
             transition: all .25s ease-in-out;
 }
 .header .bottom .main-nav .nav ul li:hover a {
-    background-color: #FFAA00;
+    color: #FFAA00;
 }
 .header .bottom .main-nav .nav li .icon {
     margin-left: 5px;
@@ -565,6 +575,9 @@ a i {
 }
 .slider .slide .btn {
     border: 1px solid #23A5A5
+}
+.slider .slide .btn:hover {
+    border: 1px solid #ffaa00;
 }
 .main-slider {
     position: relative;
@@ -731,9 +744,7 @@ a i {
     width: 100%;
     filter: grayscale(100%);
 }
-.service-item:hover .number, .service-item:hover  .number .icon {
-    color: #f80917 !important;
-}
+
 .service-item:hover .service-thumbnail img, .service-item.active .service-thumbnail img {
     filter: grayscale(0);
 }
@@ -781,6 +792,9 @@ a i {
     border-radius: 1000px;
     font-weight: bold;;
 }
+.service-item .number.text-red, .service-item .number.text-red .icon {
+    color: #005cba !important;
+}
 .service-item .number.text-blue, .service-item .number.text-blue .icon {
     color: #005cba !important;
 }
@@ -798,6 +812,16 @@ a i {
 }
 .service-item .number.text-info, .service-item .number.text-info .icon {
     color: #b000dc !important;
+}
+.service-page .service-name a {
+    color: #ffaa00;
+}
+.service-page .service-name a, .service-item .number {
+    filter: grayscale(100%);
+}
+.service-page .service-item:hover a, .service-item:hover .number, 
+.service-page .service-item.active a, .service-page .service-item.active .number {
+    filter: grayscale(0) !important;
 }
 .promotion-slider, .comments-slider, .certificate-content {
     max-width: 870px;
@@ -1256,7 +1280,7 @@ a i {
     font-size: 40px;
     background: #fff;
     color: #333333;
-    z-index: 9999;
+    z-index: 99;
     top: -4.3rem;
 }
 .block-service-article-list {
