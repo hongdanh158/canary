@@ -12,7 +12,7 @@
 			<div class="block-footer col-md-6 col-sm-12 row">
 				<div class="col-md-6 col-sm-6 col-6">
 					<div class="title">Thời gian làm việc</div>
-					<div class="license">
+					<div>
 						<div class="text-item"><span>Từ thứ Hai - thứ Bảy</span></div>
 						<div class="text-item"><span>8:00 am - 10:00 pm</span></div>
 					</div>
@@ -24,7 +24,7 @@
 				</div>
 				<div class="col-md-6 col-sm-6 col-6">
 					<div class="title">Liên kết</div>
-					<div class="license">
+					<div>
 						<div class="text-item "><a href="#">Liên kết trả góp ngân hàng</a></div>
 						<div class="text-item"><a  href="#">Liên kết bảo hiểm</a></div>
 					</div>
@@ -36,13 +36,12 @@
 				      	<div class="item"><a href="#"><img src="images/icon/fb.svg" alt=""></a></div>
 				      	<div class="item"><a href="#"><img src="images/icon/yt.svg" alt=""></a></div>
 				      	<div class="item"><a href="#"><img src="images/icon/in.svg" alt=""></a></div>
+				      	<div class="item"><a href="#"><img src="images/icon/tiktok.svg" alt=""></a></div>
 				    </div>
 				</div>
 				<div class="col-md-6 col-sm-12 ">
 					<div class="title">Tuyển dụng</div>
-					<div class="content">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit aliquid dolor natus ducimus nihil est delectus laboriosam quisquam. Cum, odit modi ipsa dicta eum doloribus perspiciatis perferendis alias. Quidem.
-					</div>
+					<div class="content"></div>
 				</div>
 			</div>
 			<div class="block-footer col-md-6 col-sm-12 ">

@@ -19,8 +19,8 @@ body {
 }
 .btn {
     border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 1.6rem;
+    padding: 5px 15px;
+    font-size: 1.4rem;
     -webkit-transition: all .25s ease-in-out;
        -moz-transition: all .25s ease-in-out;
         -ms-transition: all .25s ease-in-out;
@@ -309,7 +309,7 @@ a i {
 }
 .header .top {
     border-bottom: 2px solid #23A5A5;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
 }
 .header .top .time ul {
     margin-bottom: 0;
@@ -320,7 +320,7 @@ a i {
     vertical-align: top;
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
-    padding: 0.1rem 0.5rem;
+    padding: 0.1rem 0.8rem;
     border-right:  2px solid #23A5A5;
     font-size: 1.2rem;
     color: #23A5A5;
@@ -343,11 +343,14 @@ a i {
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
     width: 36px;
-    margin-right: 0.5rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .header .top .language .item {
     margin-top: 3px;
+    margin-right: 0.8rem;   
+}
+.header .top .language .item:nth-child(3) {
+    margin-right: 1rem;
 }
 .header .top .language a img {
     width: 100%;
@@ -357,7 +360,7 @@ a i {
     box-shadow: none;
     font-size: 1.2rem;
     border-left:  2px solid #23A5A5;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
     vertical-align: 2px;
     font-weight: 700;
     text-transform: uppercase;
@@ -375,17 +378,17 @@ a i {
     vertical-align: top;
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
+    margin-right: .8rem;
 
 }
-.header .top .socical .item:first-child {
-    margin-right: 5px;
+.header .top .socical .item:last-child {
+    margin-right: 0
 }
 .header .top .socical .item a {
     display: inline-block;
     vertical-align: top;
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
-    margin-right: 5px;
     width: 18px;
 }
 .header .top .mobile-language, .header .top .mobile-space {
@@ -410,9 +413,10 @@ a i {
     width: 100%;
     text-align: center;
     padding: 0.5rem 0;
+    margin-top: 0.5rem;
 }
 .header .bottom .logo .imgage {
-    width: 59px;
+    width: 66px;
     margin: 0 auto;
     display: block;
 }
@@ -432,7 +436,7 @@ a i {
     font-size: 1rem;
 }
 .header .bottom .logo .registered {
-
+    color: #333
 }
 .header .bottom .main-nav{
     position: relative;
@@ -464,7 +468,7 @@ a i {
     display: block;
     font-size: 1.8rem;
     font-weight: 700;
-    padding: 15px 15px;
+    padding: 20px 15px;
 }
 .header .bottom .main-nav .nav li:hover > a{
     color: #23A5A5;
@@ -511,17 +515,24 @@ a i {
     height: 2px;
     background-color: #23A5A5;
 }
+.header .bottom .search .input-group {
+    height: 35px;
+}
 .header .bottom .search .input-group .form-control {
     border-radius: 100px 0 0 100px;
     border:  2px solid #23A5A5;
     border-right: 0;
     background: #fff;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    height: 35px;
 }
 .header .bottom .search .input-group #button-search {
     border-radius: 0 100px 100px 0;
     border:  2px solid #23A5A5;
     border-left: 0;
     background: #fff;
+    height: 35px;
 }
 .header .bottom .search .input-group {
     width: 100%;
@@ -635,11 +646,16 @@ a i {
     font-size: 5rem;
     text-align: right;
     color: #FFAA00;
-    padding-right: 0.5rem;
+    min-width: 40%;
+    padding-right: 1rem;
 }
+
 .block-tree-box .box .text {
     font-weight: 700;
     color: #23A5A5;
+}
+.block-tree-box .description {
+    padding-left: 4rem;
 }
 .block {
     padding-bottom: 5rem;
@@ -660,7 +676,7 @@ a i {
     content: '';
     left: 15%;
     bottom: 0;
-    border-bottom: 0;
+    border-bottom: none;
     width: 70%;
     height: 0px;
     border-bottom: 2px solid #333333;
@@ -705,7 +721,7 @@ a i {
     max-width: 850px;
     font-weight: bold;
     font-size: 1.6rem;
-    line-height: 2;
+    line-height: 1.5;
     text-align: center;
     color: #333333;
     margin-bottom: 3rem;
@@ -958,9 +974,9 @@ a i {
     color: #fff;
     border-radius: 0;
     border-bottom: 1px solid #FFAA00;
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     line-height: 1;
-    padding: 2rem;
+    padding: 2.5rem 2rem 1rem 2rem;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -976,8 +992,18 @@ a i {
 .block-appointment .tab-content {
     border: 1px solid #FFAA00;
     border-top: none;
-    padding: 2rem;
+    padding: 4rem 6rem 2rem 6rem;
     background: #fff;
+}
+.block-appointment .form-control {
+    text-align: center;
+}
+.block-appointment .group-datetime .form-control {
+    width:  70px;
+    display: inline;
+}
+.block-appointment .group-datetime span {
+    padding: 5px;
 }
 .block-partner  {
     background: #F3FFFD;
@@ -1030,6 +1056,9 @@ a i {
     color: #FFAA00;
     margin-bottom: 0.5rem;
 }
+.block-footer .logo {
+    margin-bottom: 2rem;
+}
 .block-footer .sub-footer {
     margin-top: 3rem;
 }
@@ -1039,13 +1068,23 @@ a i {
     border-bottom: 2px solid #23A5A5;
     margin:  0.5rem 0;
 }
-
+.block-footer div.text-item {
+    position: relative;
+}
+.block-footer div.text-item:first-child::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    border-bottom: 2px solid #23A5A5;
+}
 .block-footer div.text-item span, .block-footer div.text-item a {
     display: inline-block;
     vertical-align: top;
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
-    border-bottom: 2px solid #23A5A5;
+    /*border-bottom: 2px solid #23A5A5;*/
     line-height: 2;
     color: #333;
 }
@@ -1388,6 +1427,12 @@ a i {
 .license div.text-item:last-child span, .license div.text-item:last-child a {
     border-bottom: 0 !important;
 }
+.license div.text-item:first-child::before {
+    border-bottom: 2px solid transparent;
+}
+.license div.text-item:first-child a {
+    border-bottom: 2px solid #23A5A5;;
+}
 .block-policy .logo .logo-text a {
     font-family: Open Sans;
     font-style: normal;
@@ -1403,46 +1448,10 @@ a i {
     font-size: 1.2rem;
     font-weight: bold;
 }
-.block-policy-detail  .accordion-item {
-    border:  0;
-    border-radius: 0;
-}
-.block-policy-detail .accordion-item{
-    border-bottom: 1px solid #23A5A5;
-}
-.block-policy-detail .accordion-button {
-    font-size: 1.6rem;
-    background: transparent;
-    box-shadow: none;
-    padding: 2rem 1rem;
-    color: #333;
-    font-weight: bold;
-}
-.block-policy-detail .accordion-item:last-of-type {
-    border-bottom:  0;
-}
-.block-policy-detail .accordion-button::after {
-    background:  none;
-    content: "\f0de"; /* FontAwesome Unicode */
-    font-size: 1.2rem;
-    font-family: "Font Awesome 5 Pro";
-}
-.block-policy-detail  .accordion-button:not(.collapsed)::after {
-    content: "\f0d7"; /* FontAwesome Unicode */
-    background:  none;
-    transform: rotate(0);
-}
-.block-policy-detail .accordion-body {
-    padding: 2rem 15px;
-    border-top: 1px solid rgba(0, 0, 0, .1);
-}
+
 .block-appointment {
     padding-top: 6rem;
     padding-bottom: 6rem;
-}
-.block-appointment .tab-content {
-    background: #fff;
-    padding: 3rem;
 }
 .customer-information-title {
     font-weight: bold;
@@ -1520,8 +1529,14 @@ a i {
     padding: 6rem; 
     padding-top: 0;
 }
+.customer-table-content table th {
+    background-color: #F0F0F0;;
+}
+.table.table-light td{
+    background-color: #fff;
+}
 .customer-table-content table td, .customer-table-content table th {
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 .customer-information-conent-block img {
     max-width: 100%;
@@ -1774,8 +1789,14 @@ a i {
          -o-transform: scale(1.2);
             transform: scale(1.2);
 }
+.knowledge-content .tab-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
 .list-knowledge .item {
-    padding: 2.5rem;
+    padding: 5rem;
+    padding-bottom: 3rem;
     
 }
 .list-knowledge .item .box {
@@ -1879,6 +1900,7 @@ a i {
     color: #333333;
     text-align: center;
     margin-bottom: 6rem;
+    margin-top: 1rem;
 }
 .block-dental-knowledge .content-title {
     font-weight: bold;
@@ -1887,9 +1909,11 @@ a i {
     color: #333333;
     text-align: center;
     margin-bottom: 6rem;
+    margin-top: 1rem;
 }
 .block-dental-knowledge .nav-tabs {
     border:  0;
+    margin-left: 5rem;
 }
 .block-dental-knowledge .nav-tabs .nav-link {
     color: #333;
@@ -1902,6 +1926,20 @@ a i {
 }
 .block-dental-knowledge .nav-tabs .nav-item {
     text-align: left;
+    padding-left: 3rem;
+    position: relative; 
+}
+.block-dental-knowledge .nav-tabs .nav-item:before {
+    position: absolute;
+    top: 1.8rem;
+    left: 3rem;
+    content: "\f0eb";
+    font-size: 1.4rem;
+    font-family: "Font Awesome 5 Pro";
+    display: inline-block;
+    margin-left: -2rem;
+    width: 1.3em;
+    color: #23A5A5;
 }
 .block-dental-knowledge .nav-tabs .nav-item.show .nav-link, 
 .block-dental-knowledge .nav-tabs .nav-link.active {
@@ -2169,9 +2207,7 @@ a i {
     font-size: 1.6rem;
     background-color: #F0F0F0;;
 }
-.table.table-light td, .table.table-light th {
-    background-color: #fff;
-}
+
 .customer-information-slider .customer-information-item {
     padding: 2rem;
     width: 33.3333%;
@@ -2315,9 +2351,16 @@ a i {
     margin-bottom: 4rem; 
     font-size: 2.4rem;
 }
-.knowledge-content {
-    padding-left: 4rem;
-}
 .thumbnail-article {
     margin-right: 10px;
+}
+.block-promotion-trevel .block-title {
+    margin-bottom: 0;
+    line-height: 11rem;
+}
+.block-promotion-trevel .block-title::before {
+    bottom: -5.5rem;
+}
+.block-promotion-trevel .title-description {
+    margin-top: 7rem;
 }

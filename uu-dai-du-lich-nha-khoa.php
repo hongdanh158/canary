@@ -2,7 +2,7 @@
 	<section class="block block-promotion-trevel">
 		<div class="container">
 			<div class="d-flex justify-content-center">
-				<h2 class="block-title mt-6rem">DU LỊCH <span class="highlight">NHA KHOA</span></h2>
+				<h2 class="block-title">DU LỊCH <span class="highlight">NHA KHOA</span></h2>
 			</div>
 			<div class="sub-title d-flex justify-content-center">Ưu đãi lưu trú hệ thống &nbsp; <img src="images/saigontourist.png" alt=""></div>
 			<div class="line"></div>

@@ -8,17 +8,16 @@
 			<div class="block-content container row mt-6rem">
 				<div class="col-md-12 customer-information-conent background-light-primary">
 					<div class="row header-form">
-						<div class="col-md-6 col-6 d-flex align-items-center">
-							
+						<div class="col-3 d-flex align-items-center">
 							<div class="row">
 								<div class="col-12"><strong class="customer-id">MÃ HỒ SƠ: NKCNR001</strong></div>
-								<div class="col-12">
-									<div><strong>LƯU Ý: </strong></div>
-									<textarea class="note"></textarea>
+								<div class="col-12 row">
+									<div class="col-3"><strong>LƯU Ý: </strong></div>
+									<div class="col-9"><textarea class="note"></textarea></div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6  col-6 d-flex justify-content-end">
+						<div class="col-9 d-flex justify-content-end">
 							<div class="logo">
 					     		<a class="imgage" href="index.php"><img src="images/logo.png" alt=""></a>
 					     		<h1 class="logo-text"><a href="index.php">NHA KHOA CANARY <sup class="registered">&reg;</sup></a></h1>
@@ -31,67 +30,36 @@
 						<div class="col-md-12 customer-information-conent-block">
 							<p class="header-title"><strong class="highlight">THÔNG TIN KHÁCH HÀNG</strong></p>
 							<div class="row mb-3">
-								<div class="col-md-5 row">
-                        			 <label for="appointment" class="col-md-4 col-6 col-form-label">Ngày bắt đầu: <sup class="required">*</sup></label>
-								    <div class="col-md-8 col-6">
+								<div class="col-md-12 row mb-5">
+                        			 <label for="appointment" class="col-md-2 col-6 col-form-label">Ngày bắt đầu:</label>
+								    <div class="col-md-10 col-6">
 								      <p>01/01/2021</p>
 								    </div>
                         		</div>
-							</div>
-                        	<div class="row mb-3">
-                        		<div class="col-md-5 row">
-                        			<label for="name" class="col-md-4 col-6 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-								    <div class="col-md-8 col-6"><p>Nguyễn Văn A</p></div>
+                        		<div class="col-md-12 row mb-5">
+                        			<label for="name" class="col-md-2 col-6 col-form-label">Họ và Tên: </label>
+								    <div class="col-md-4 col-6"><p>Nguyễn Văn A</p></div>
+									<div class="col-md-3 col-6"><label style="width:100px">Năm sinh:</label> 01/01/1990</div>
+									<div class="col-md-3 col-6"><label style="width:100px">Giới tính:</label> Nam</div>
                         		</div>
-							    <div class="col-md-4 row">
-                        			<label for="birthday" class="col-md-4 col-6 col-form-label">Năm sinh: <sup class="required">*</sup></label>
-								    <div class="col-md-8 col-6">
-								      <p>01/01/1990</p>
-								    </div>
+								<div class="col-md-12 row mb-5">
+                        			<label for="name" class="col-md-2 col-6 col-form-label">Số điện thoại:</label>
+								    <div class="col-md-4 col-6"><p>0123456789</p></div>
+									<div class="col-md-6 col-6"><label style="width:100px">Email:</label> example@gmail.com</div>
                         		</div>
-                        		<div class="col-md-3 row">
-                        			<label for="sex" class="col-md-5 col-6 col-form-label">Giới tính <sup class="required">*</sup></label>
-								    <div class="col-md-7 col-6">
-								    	<p>Nam</p>
-								    </div>
+								<div class="col-md-12 row mb-3">
+                        			<label for="name" class="col-md-2 col-6 col-form-label">Địa chỉ:</label>
+								    <div class="col-md-7 col-6"><p>12 Tôn Đản, P13, Q.4, TP.Hồ Chí Minh</p></div>
+									<div class="col-md-3 col-6"><label style="width:100px">Nhóm máu:</label> AB</div>
                         		</div>
-							</div>
-							<div class="row mb-3">
-							    <div class="col-md-5 row">
-                        			<label for="phone" class="col-md-4  col-6 col-form-label">Số điện thoại: <sup class="required">*</sup></label>
-								    <div class="col-md-8  col-6">
-								      <p>0123456789</p>
-								    </div>
+							    <div class="col-md-12 row mb-5">
+                        			<label for="name" class="col-md-2 col-6 col-form-label">Bệnh lí kèm theo:</label>
+								    <div class="col-md-10 col-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></div>
                         		</div>
-                        		<div class="col-md-4 row">
-                        			<label for="email" class="col-md-4  col-6 col-form-label">Email <sup class="required">*</sup></label>
-								    <div class="col-md-8  col-6">
-								      <p>example@gmail.com</p>
-								    </div>
+								<div class="col-md-12 row mb-5">
+                        			<label for="name" class="col-md-2 col-6 col-form-label">Lưu ý đặc biệt:</label>
+								    <div class="col-md-10 col-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></div>
                         		</div>
-                        		<div class="col-md-3 row">
-                        			<label for="blood-group" class="col-md-6  col-6 col-form-label">Nhóm máu <sup class="required">*</sup></label>
-								    <div class="col-md-6  col-6">
-								    	<p>AB</p>
-								    </div>
-                        		</div>
-							</div>
-							<div class="row mb-3">
-                    			<label for="address" class="col-md-1 col-3 col-form-label">Địa chỉ: <sup class="required">*</sup></label>
-							    <div class="col-md-11 col-9">
-							      <p>12 Tôn Đản, P13, Q.4, TP.Hồ Chí Minh</p>
-							</div>
-							<div class="row mb-3">
-                    			<label for="name" class="col-md-1 col-12 col-form-label">Bệnh lí kèm theo:</label>
-							    <div class="col-md-11 col-12 ">
-							      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-							    </div>
-							</div>
-							<div class="row mb-3">
-                        			<label for="name" class="col-md-1 col-12 col-form-label">Lưu ý đặc biệt:</label>
-								    <div class="col-md-11 col-12">
-								      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-								    </div>
 							</div>
 							<div class="mb-3rem">
 								<p class="header-title"><strong class="highlight">HỒ SƠ THANH TOÁN BẢO HIỂM</strong></p>
@@ -110,13 +78,13 @@
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">LỊCH HẸN</strong></p>
-							<div class="row mb-3">
-								<table class="table table-bordered table-light">
+							<div class="row">
+								<table class="table table-bordered table-light mb-5">
 									<tr>
-										<th rowspan="5" class="text-center align-middle">LỊCH HẸN ĐIỀU TRỊ</th>
-										<th class="text-center">Thứ</th>
-										<th class="text-center">Ngày</th>
-										<th class="text-center">Giờ</th>
+										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐIỀU TRỊ</th>
+										<th class="text-center" width="100px">Thứ</th>
+										<th class="text-center" width="100px">Ngày</th>
+										<th class="text-center" width="60px">Giờ</th>
 										<th class="text-center">Nội dung</th>
 									</tr>
 									<tr>
@@ -146,35 +114,25 @@
 								</table>
 								<table class="table table-bordered table-light">
 									<tr>
-										<th rowspan="5" class="text-center align-middle">LỊCH HẸN ĐỊNH KỲ</th>
-										<th class="text-center">Thứ</th>
-										<th class="text-center">Ngày</th>
-										<th class="text-center">Giờ</th>
+										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐỊNH KỲ</th>
+										<th class="text-center" width="120px">Ngày</th>
 										<th class="text-center">Nội dung</th>
 									</tr>
 									<tr>
-										<td class="text-center align-middle">Thứ 2</td>
 										<td class="text-center align-middle">10/01/2021</td>
-										<td class="text-center align-middle">09:00</td>
-										<td class="text-center align-middle">Nhổ răng khôn</td>
+										<td class="text-center align-middle">Cạo vôi răng định kỳ</td>
 									</tr>
 									<tr>
-										<td class="text-center align-middle">Thứ 2</td>
 										<td class="text-center align-middle">10/01/2021</td>
-										<td class="text-center align-middle">09:00</td>
-										<td class="text-center align-middle">Nhổ răng khôn</td>
+										<td class="text-center align-middle">Cạo vôi răng định kỳ</td>
 									</tr>
 									<tr>
-										<td class="text-center align-middle">Thứ 2</td>
 										<td class="text-center align-middle">10/01/2021</td>
-										<td class="text-center align-middle">09:00</td>
-										<td class="text-center align-middle">Nhổ răng khôn</td>
+										<td class="text-center align-middle">Cạo vôi răng định kỳ</td>
 									</tr>
 									<tr>
-										<td class="text-center align-middle">Thứ 2</td>
 										<td class="text-center align-middle">10/01/2021</td>
-										<td class="text-center align-middle">09:00</td>
-										<td class="text-center align-middle">Nhổ răng khôn</td>
+										<td class="text-center align-middle">Cạo vôi răng định kỳ</td>
 									</tr>
 								</table>
 							</div>
@@ -185,15 +143,15 @@
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">HỒ SƠ ĐIỀU TRỊ</strong></p>
-							<div class="row mb-3">
+							<div class="row">
 								<table class="table table-bordered table-light">
 									<tr>
-										<th class="text-center align-middle">NGÀY ĐIỀU TRỊ</th>
-										<th class="text-center">KÝ HIỆU RĂNG</th>
-										<th class="text-center">CHẨN ĐOÁN</th>
+										<th class="text-center align-middle" width="100px">NGÀY <br> ĐIỀU TRỊ</th>
+										<th class="text-center" width="100px">KÝ HIỆU RĂNG</th>
+										<th class="text-center" width="180px">CHẨN ĐOÁN</th>
 										<th class="text-center">ĐIỀU TRỊ</th>
 										<th class="text-center">LƯU Ý</th>
-										<th class="text-center">MÃ THẺ BẢO HÀNH</th>
+										<th class="text-center" width="100px">MÃ THẺ BẢO HÀNH</th>
 									</tr>
 									<tr>
 										<td class="text-center align-middle">10/01/2021</td>

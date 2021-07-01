@@ -63,6 +63,7 @@
 			      	<div class="item"><a href="#"><img src="images/icon/fb.svg" alt=""></a></div>
 			      	<div class="item"><a href="#"><img src="images/icon/yt.svg" alt=""></a></div>
 			      	<div class="item"><a href="#"><img src="images/icon/in.svg" alt=""></a></div>
+			      	<div class="item"><a href="#"><img src="images/icon/tiktok.svg" alt=""></a></div>
 			    </div>
 			</div>
 		</div>
@@ -154,7 +155,7 @@
 					      		<ul>
 							      	<li><a href="uu-dai-lien-ket-bao-hiem.php">Liên kết bảo hiểm</a></li>
 							      	<li><a href="uu-dai-lien-ket-ngan-hang.php">Liên kết trả góp ngân hàng</a></li>
-							      	<li><a href="uu-dai-dich-vu-nha-khoa.php">Du lịch nha khoa</a></li>
+							      	<li><a href="uu-dai-du-lich-nha-khoa.php">Du lịch nha khoa</a></li>
 							      	<li><a href="uu-dai-khac.php">Ưu đãi cho Sinh viên</a></li>
 							      	<li><a href="uu-dai-khac.php#tu-hanh">Ưu đãi cho Quý tu hành</a></li>
 							    </ul>
@@ -166,7 +167,7 @@
 			    <div class="search-desktop col-lg-2 d-lg-flex align-items-center">
 			      	<div class="search">
 			      		<div class="input-group">
-							<input type="text" class="form-control" placeholder="Tìm kiếm" aria-describedby="button-search">
+							<input type="text" class="form-control" aria-describedby="button-search">
 							<button class="btn btn-outline-secondary" type="button" id="button-search"><i class="far fa-search"></i></button>
 						</div>
 			      	</div>		

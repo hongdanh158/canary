@@ -397,25 +397,22 @@ easily in the skin designer. http://designer.videojs.com/
 */
 .vjs-default-skin .vjs-big-play-button {
   /* Center it horizontally */
-  left: 50%;
-  margin-left: -1.82em;
+  left: calc(50% - 2.5rem);
   /* Center it vertically */
-  top: 50%;
-  margin-top: -1.82em;
+  top: calc(50% - 2.5rem);
   font-size: 3em;
   display: block;
   z-index: 2;
   position: absolute;
-  width: 3.5em;
-  height: 3.5em;
+  width: 2.5em;
+  height: 2.5em;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
   /* Need a slightly gray bg so it can be seen on black backgrounds */
   /* background-color-with-alpha */
-  background-color: #000000;
-  background-color: transparent;
-  border: 0.07em solid transparent;
+  background-color: #c4c4c4;
+  border: 1px solid #fff;
   /* border-radius */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -476,7 +473,7 @@ easily in the skin designer. http://designer.videojs.com/
   height: 100%;
   width: 3.5em;
   height: 3.5em;
-  background-position: -130px -225px;
+  background-position: -144px -237px;
 }
 
 .vjs-default-skin .vjs-big-play-button:after {

@@ -29,15 +29,15 @@
 		<div class="block-content d-flex justify-content-center">
 			<div class="box d-lg-flex flex-lg-row align-items-center">
 				<div class="number counter" data-counter-time="2000" data-counter-delay="10">14</div>
-				<div class="text">NĂM KINH NGHIỆM</div>
+				<div class="text">NĂM <br> KINH NGHIỆM</div>
 			</div>
 			<div class="box d-lg-flex flex-lg-row align-items-center">
 				<div class="number counter" data-counter-time="2000" data-counter-delay="10">6</div>
-				<div class="text">NĂM THÀNH LẬP</div>
+				<div class="text">NĂM <br> THÀNH LẬP</div>
 			</div>
 			<div class="box  d-lg-flex flex-lg-row align-items-center">
-				<div class="number counter" data-counter-time="2000" data-counter-delay="10">1036</div>
-				<div class="text">KHÁCH HÀNG</div>
+				<div class="number counter" data-counter-time="2000" data-counter-delay="10" style="padding-left: 1rem;">1036</div>
+				<div class="text"  style="padding-left: 2rem;">KHÁCH HÀNG</div>
 			</div>
 		</div>
 		<div class="d-flex justify-content-center mt-6rem">
@@ -81,7 +81,7 @@
 		</div>
 		<div class="title-description">KHÁM & TƯ VẤN MIỄN PHÍ <br> CAM KẾT CHẤT LƯỢNG ĐIỀU TRỊ</div>
 		<div class="line"></div>
-		<div class="block-content container " style="margin-top: 5rem;">
+		<div class="block-content container " style="margin-top: 10rem;">
 			<div class="service-item aign-items-center">
 				<div class="ab-icon"><img src="images/icon/nha-chu.png" alt=""></div>
 				<h3 class="service-name">Nha Chu</h3>
@@ -289,71 +289,73 @@
                     <div class="tab-pane fade show active " id="v-pills-user" role="tabpanel" aria-labelledby="v-pills-user-tab">
                         <form>
                         	<div class="row mb-3">
-							    <label for="name" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name" autocomplete="off">
+							    <label for="name" class="col-sm-3 col-form-label">Họ và Tên <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="name" autocomplete="off" placeholder="Nguyễn Văn A">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="phone" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone" autocomplete="off">
+							    <label for="phone" class="col-sm-3 col-form-label">Số điện thoại <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="number" class="form-control" id="phone" autocomplete="off"  placeholder="0123456789">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="email" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email" autocomplete="off">
+							    <label for="email" class="col-sm-3 col-form-label">Email <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="email" class="form-control" id="email" autocomplete="off" placeholder="example@gmail.com">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
+							    <label for="appointment" class="col-sm-3 col-form-label">Lịch đặt <sup class="required">*</sup></label>
+							    <div class="col-sm-9 group-datetime">
+							      <span>Ngày</span> <input type="text" autocomplete="off" placeholder="DD" class="form-control"> 
+							      <span>/</span> 
+							      <input type="text" autocomplete="off" placeholder="MM" class="form-control">
+							      <span>/</span> 
+							      <input type="text" autocomplete="off" placeholder="YYYY" class="form-control">
+							      <span>Vào lúc</span>
+							      <input type="text" autocomplete="off" placeholder="00" class="form-control">
+							      <span>:</span> 
+							      <input type="text" autocomplete="off" placeholder="00" class="form-control">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="contner-appointment" class="col-sm-2 col-form-label">Nội dung <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
+							    <label for="contner-appointment" class="col-sm-3 col-form-label">Nội dung <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
 							      <textarea class="form-control" id="contner-appointment" placeholder="Nhập nội dung khám"></textarea>
 							    </div>
 							</div>
-						  	<div class="d-flex justify-content-center"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
+						  	<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
 						</form>
                     </div>
                     <div class="tab-pane fade" id="v-pills-pooblastila" role="tabpanel" aria-labelledby="v-pills-pooblastila-tab">
                     	<form>
                         	<div class="row mb-3">
-							    <label for="name-2" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name-2" autocomplete="off">
+							    <label for="name" class="col-sm-3 col-form-label">Họ và Tên <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="name" autocomplete="off" placeholder="Nguyễn Văn A">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="phone-2" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone-2" autocomplete="off">
+							    <label for="phone" class="col-sm-3 col-form-label">Số điện thoại <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="number" class="form-control" id="phone" autocomplete="off"  placeholder="0123456789">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="email-2" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email-2" autocomplete="off">
+							    <label for="email" class="col-sm-3 col-form-label">Email <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="email" class="form-control" id="email" autocomplete="off" placeholder="example@gmail.com">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
+							    <label for="contner-appointment" class="col-sm-3 col-form-label">Câu hỏi <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <textarea class="form-control" id="contner-appointment" placeholder="Văn bản" style="height: 112px;"></textarea>
 							    </div>
 							</div>
-							<div class="row mb-3">
-							    <label for="contner-appointment-2" class="col-sm-2 col-form-label">Nội dung <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <textarea class="form-control" id="contner-appointment-2" placeholder="Nhập nội dung khám"></textarea>
-							    </div>
-							</div>
-						  	<div class="d-flex justify-content-center"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
+						  	<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
 						</form>
                     </div>
                 </div>
