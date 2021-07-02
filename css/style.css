@@ -1830,10 +1830,11 @@ a i {
 }
 .bubble-buttons ul li .icon {
     margin-left: 10px;
+    margin-right: 1rem;
     font-size: 3rem;
     vertical-align: -5px;
-    color: #969696;
-    filter: grayscale(100%);
+    color: #FFAA00;
+    /* filter: grayscale(100%); */
     -webkit-transition: all .25s ease-in-out;
        -moz-transition: all .25s ease-in-out;
         -ms-transition: all .25s ease-in-out;

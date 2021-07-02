@@ -58,10 +58,10 @@
 	</footer>
 	<div class="bubble-buttons">
 		<ul>
-			<li><a href="#" class="d-flex justify-content-end"><span class="text phone">Gọi điện</span><span class="icon icon-telephone"></span></a></li>
-			<li><a href="#" class="d-flex justify-content-end"><span class="text zalo">Zalo</span><span class="icon icon-zalo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span></a></li>
-			<li><a href="#" class="d-flex justify-content-end"><span class="text messenger">Messenger</span><span class="icon icon-messenger"></span></a></li>
-			<li><a href="#" class="d-flex justify-content-end"><span class="text chat">Đặt lịch hẹn</span><span class="icon icon-chat"></span></a></li>
+			<li><a href="#" class="d-flex justify-content-end"><span class="text phone"></span><span class="icon icon-telephone"></span></a></li>
+			<li><a href="#" class="d-flex justify-content-end"><span class="text zalo"></span><span class="icon icon-zalo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span></a></li>
+			<li><a href="#" class="d-flex justify-content-end"><span class="text messenger"></span><span class="icon icon-messenger"></span></a></li>
+			<li><a href="#" class="d-flex justify-content-end"><span class="text chat"></span><span class="icon icon-chat"></span></a></li>
 		</ul>
 		<div class="main-icon"><i class="fas fa-plus-circle"></i><i class="fas fa-times-circle"></i></div>
 	</div>
