@@ -76,5 +76,5 @@
 <script src="js/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <script type="text/javascript" src="js/locales/bootstrap-datetimepicker.vn.js" charset="UTF-8"></script>
 <script type="text/javascript" src="js/play-video.js"></script>
-<script type="text/javascript" src="js/script.js?v=2"></script>
+<script type="text/javascript" src="js/script.js?v=6"></script>
 </html>

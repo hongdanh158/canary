@@ -311,3 +311,14 @@ $('.js-menu-mobile').click(function (e) {
 		$('.three-bars-icon').addClass('close');
 	}	
 });
+$('.list-policy li').each(function (index, obj) {
+	if ($(this).has("ul").length) {
+		$(this).find('p').eq(0).append('<span class="icon"></span>');
+	};
+});
+$('.list-policy > li').click(function() {
+	if ($(this).has("ul").length) {
+		$('.list-policy li').removeClass('active');
+		$(this).addClass('active');
+	};
+})
