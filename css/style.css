@@ -712,6 +712,7 @@ a i {
   font-family: "Font Awesome 5 Pro";
   display: inline-block;
   margin-left: -2rem; /* same as padding-left set on li */
+  margin-right: 1rem;
   width: 1.3em; /* same as padding-left set on li */
 }
 .block-service {
