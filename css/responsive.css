@@ -40,7 +40,7 @@
 }
 @media (max-width: 1000px) {
 	body {
-	    padding-top: 130px;
+	    padding-top: 145px;
 	}
 	.header {
 		top: 0;
@@ -88,7 +88,7 @@
 		font-size: 1.6rem;
 		line-height: 10rem;
 		margin-bottom: 2rem;
-		margin-top: 0;
+		margin-top: 2rem;
 	}
 	.video-wrapper {
 		margin-bottom: 2rem;
@@ -112,6 +112,7 @@
 		line-height: 1.5;
 		font-size: 1.2rem;
 		margin-bottom: 2rem;
+		margin-top: 2rem;
 	}
 	.block-appointment .nav-fill .nav-item, .nav-fill>.nav-link {
 		font-size: 1.6rem;
@@ -276,6 +277,10 @@
 	}
 	.block-dental-knowledge .tab-title, .block-dental-knowledge .content-title {
 		margin-bottom: 0;
+		margin-left: 0;
+	}
+	.list-knowledge .item {
+		padding: 3rem;
 	}
 	.knowledge-content {
 		padding-left: 0;
@@ -318,6 +323,21 @@
 	}
 }
 @media (max-width: 575px) {
+	.block {
+		padding-bottom: 5rem;
+	}
+	.block .block-title::before {
+		bottom: -10px;
+	}
+	.block-appointment .group-datetime .form-control {
+		margin-bottom: 30px;
+	}
+	.block-tree-box .description {
+		padding-left: 0;
+	}
+	.block-appointment .group-datetime .form-control {
+		width: 60px;
+	}
 	.slider .slide .text {
 	    width: 200px;
 	    padding: 0.5rem
@@ -346,7 +366,7 @@
 	.block .block-title {
 		line-height: 6rem;
 		margin-bottom: 2rem;
-		margin-top: 0;
+		margin-top: 2rem;
 	}
 	.service-item {
 		width: 45%;

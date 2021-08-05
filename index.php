@@ -70,7 +70,7 @@
 							<li>Công nghệ phòng vi sinh giúp diệt khuẩn</li>
 						</ul>
 					</div>
-					<div><a class="btn btn-outline-primary" href="#"> Xem thêm</a></div>
+					<div><a class="btn btn-outline-primary" href="#" style="margin-left: 29px"> Xem thêm</a></div>
 				</div>	
 			</div>
 		</div>

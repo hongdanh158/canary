@@ -21,7 +21,7 @@
 				Khi đến với Nha Khoa Canary, <br>
 				quý khách sẽ được thăm khám và tư vấn kỹ lưỡng các vấn đề về sức khỏe răng miệng của mình cũng như các giải pháp cùng chi phí điều trị theo từng giải pháp để quý khách lựa chọn.
 		</div>
-		<div class="block-content container row" style="max-width: 850px; margin-top: 6rem;">
+		<div class="block-content container row" style="max-width: 850px; margin-top: 150px;">
 			<div class="price-item col-md-6 col-xs-12">
 				<div class="price-box d-flex flex-sm-column flex-md-row flex-xs-column">
 					<div class="left">
@@ -149,71 +149,73 @@
                     <div class="tab-pane fade show active " id="v-pills-user" role="tabpanel" aria-labelledby="v-pills-user-tab">
                         <form>
                         	<div class="row mb-3">
-							    <label for="name" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name" autocomplete="off">
+							    <label for="name" class="col-sm-3 col-form-label">Họ và Tên <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="name" autocomplete="off" placeholder="Nguyễn Văn A">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="phone" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone" autocomplete="off">
+							    <label for="phone" class="col-sm-3 col-form-label">Số điện thoại <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="number" class="form-control" id="phone" autocomplete="off"  placeholder="0123456789">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="email" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email" autocomplete="off">
+							    <label for="email" class="col-sm-3 col-form-label">Email <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="email" class="form-control" id="email" autocomplete="off" placeholder="example@gmail.com">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="appointment" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment" placeholder="DD-MM-YYYY HH:II">
+							    <label for="appointment" class="col-sm-3 col-form-label">Lịch đặt <sup class="required">*</sup></label>
+							    <div class="col-sm-9 group-datetime">
+							      <span>Ngày</span> <input type="text" autocomplete="off" placeholder="DD" class="form-control"> 
+							      <span>/</span> 
+							      <input type="text" autocomplete="off" placeholder="MM" class="form-control">
+							      <span>/</span> 
+							      <input type="text" autocomplete="off" placeholder="YYYY" class="form-control">
+							      <span>Vào lúc</span>
+							      <input type="text" autocomplete="off" placeholder="00" class="form-control">
+							      <span>:</span> 
+							      <input type="text" autocomplete="off" placeholder="00" class="form-control">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="contner-appointment" class="col-sm-2 col-form-label">Nội dung <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
+							    <label for="contner-appointment" class="col-sm-3 col-form-label">Nội dung <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
 							      <textarea class="form-control" id="contner-appointment" placeholder="Nhập nội dung khám"></textarea>
 							    </div>
 							</div>
-						  	<div class="d-flex justify-content-center"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
+						  	<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
 						</form>
                     </div>
                     <div class="tab-pane fade" id="v-pills-pooblastila" role="tabpanel" aria-labelledby="v-pills-pooblastila-tab">
                     	<form>
                         	<div class="row mb-3">
-							    <label for="name-2" class="col-sm-2 col-form-label">Họ và Tên <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control" id="name-2" autocomplete="off">
+							    <label for="name" class="col-sm-3 col-form-label">Họ và Tên <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="name" autocomplete="off" placeholder="Nguyễn Văn A">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="phone-2" class="col-sm-2 col-form-label">Số điện thoại <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="phone-2" autocomplete="off">
+							    <label for="phone" class="col-sm-3 col-form-label">Số điện thoại <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="number" class="form-control" id="phone" autocomplete="off"  placeholder="0123456789">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="email-2" class="col-sm-2 col-form-label">Email <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="email" class="form-control" id="email-2" autocomplete="off">
+							    <label for="email" class="col-sm-3 col-form-label">Email <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <input type="email" class="form-control" id="email" autocomplete="off" placeholder="example@gmail.com">
 							    </div>
 							</div>
 							<div class="row mb-3">
-							    <label for="appointmen-2t" class="col-sm-2 col-form-label">Lịch đặt <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <input type="text" class="form-control datetimepicker" id="appointment-2" placeholder="DD-MM-YYYY HH:II">
+							    <label for="contner-appointment" class="col-sm-3 col-form-label">Câu hỏi <sup class="required">*</sup></label>
+							    <div class="col-sm-9">
+							      <textarea class="form-control" id="contner-appointment" placeholder="Văn bản" style="height: 112px;"></textarea>
 							    </div>
 							</div>
-							<div class="row mb-3">
-							    <label for="contner-appointment-2" class="col-sm-2 col-form-label">Nội dung <sup class="required">*</sup></label>
-							    <div class="col-sm-10">
-							      <textarea class="form-control" id="contner-appointment-2" placeholder="Nhập nội dung khám"></textarea>
-							    </div>
-							</div>
-						  	<div class="d-flex justify-content-center"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
+						  	<div class="d-flex justify-content-end"><a class="btn btn-outline-primary" href="#"> Xác nhận </a></div>
 						</form>
                     </div>
                 </div>

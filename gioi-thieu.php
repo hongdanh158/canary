@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 	<section class="block block-about-us">
-		<div class="d-flex justify-content-center mt-6rem ">
+		<div class="d-flex justify-content-center">
 			<h2 class="block-title">VỀ <span class="highlight">NHA KHOA</span></h2>
 		</div>
 		<div class="line"></div>

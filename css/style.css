@@ -59,6 +59,7 @@ body {
 .form-control {
     font-size: 1.6rem;
     background: #F0F0F0;
+    border-radius: 10px;
 }
 .form-control:focus {
     border-color: #23a5a5;
@@ -107,13 +108,13 @@ a i {
   clear: both;
 }
 .mt-6rem {
-    margin-top: 6rem;
+    margin-top: 100px;
 }
 .mt-3rem {
     margin-top: 3rem;
 }
 .mb-6rem {
-    margin-bottom: 6rem;
+    margin-bottom: 100px;
 }
 .mb-3rem {
     margin-bottom: 3rem;
@@ -658,25 +659,24 @@ a i {
     padding-left: 4rem;
 }
 .block {
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 .block .block-title {
     position: relative;
     font-weight: bold;
     font-size: 4rem;
-    line-height: 12rem;
+    line-height: 1;
     /* identical to box height */
     text-align: center;
     color: #23A5A5;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+    margin-bottom: 160px;
+    margin-top: 100px;
 }
 .block .block-title::before {
     position: absolute;
     content: '';
     left: 15%;
-    bottom: 0;
-    border-bottom: none;
+    bottom: -60px;
     width: 70%;
     height: 0px;
     border-bottom: 2px solid #333333;
@@ -732,11 +732,11 @@ a i {
     float: left;
     width: 17.6%;
     margin-right: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 50px;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 3rem 2rem;
     position: relative;
     -webkit-transition: all .25s ease-in-out;
        -moz-transition: all .25s ease-in-out;
@@ -770,6 +770,7 @@ a i {
     font-size: 1.6rem;
     line-height: 22px;
     color: #23A5A5;
+    margin-bottom: 15px;
 }
 .service-desciption {
     font-size: 1.2rem;
@@ -855,7 +856,7 @@ a i {
     width: 33.3333%;
 }
 .block-promotion .promotion-box {
-    padding: 1.5rem;
+    padding: 2.5rem;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -863,7 +864,7 @@ a i {
 .promotion-item .thumbnail {
     width: 100%;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 .promotion-item .thumbnail img {
     width: 100%;
@@ -871,7 +872,7 @@ a i {
 }
 .promotion-item .promotion-description {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .block-content {
     position: relative;
@@ -881,7 +882,7 @@ a i {
     font-size: 1.6rem;
     line-height: 1.2;
     color: #23A5A5;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
 }
 .promotion-box .btn {
     font-size: 1.2rem;
@@ -958,6 +959,10 @@ a i {
 .customer-comments {
     background: #F3FFFD;
 }
+.block-appointment {
+    padding-bottom: 100px;
+}
+
 .appointment-content {
     margin: 0 auto;
     width: 100%;
@@ -993,7 +998,7 @@ a i {
 .block-appointment .tab-content {
     border: 1px solid #FFAA00;
     border-top: none;
-    padding: 4rem 6rem 2rem 6rem;
+    padding: 4rem 6rem 4rem 6rem;
     background: #fff;
 }
 .block-appointment .form-control {
@@ -1044,7 +1049,7 @@ a i {
 }
 .footer {
     border-top: 2px solid #FFAA00;
-    padding: 3rem 0 0 0;
+    padding: 5rem 0 0 0;
     font-weight: bold;
     font-size: 1.2rem;
 
@@ -1160,7 +1165,7 @@ a i {
 }
 .about-content div, .about-content .text-description {
     line-height: 1.8;
-    margin-bottom: 6rem;
+    margin-bottom: 65px;
     font-size: 1.6rem;
 }
 .about-content div ul, .about-content div ol {
@@ -1171,7 +1176,7 @@ a i {
     font-size: 1.6rem;
 }
 .block-doctor .doctor-content {
-    padding: 3rem 0;
+    padding: 1rem 0;
     margin-bottom: 5rem;
     position: relative;
 }
@@ -1187,7 +1192,7 @@ a i {
    font-weight: bold;
     font-size: 4rem !important;
     line-height: 1.6;
-    margin-bottom: 6rem; 
+    margin-bottom: 100px; 
     color: #FFAA00;
 }
 .block-doctor .text-description {
@@ -1226,6 +1231,7 @@ a i {
 .about-campus-slider {
     max-width: 850px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .about-campus-slider img {
     width: 100%;
@@ -1262,10 +1268,10 @@ a i {
     vertical-align: top;
     zoom: 1; /* Fix for IE7 */
     *display: inline; /* Fix for IE7 */
-    padding: 1rem;
+    margin-right: 50px
 }
 .block-price .price-item .price-box {
-    padding: 1.5rem;
+    padding: 50px;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -1276,8 +1282,7 @@ a i {
             transition: all .25s ease-in-out;
 }
 .block-price .price-item .price-name {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
 }
 .block-price .price-item .price-name a {
     font-weight: bold;
@@ -1295,7 +1300,7 @@ a i {
     color: #23A5A5;
 }
 .block-service-article {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .block-service-article .container {
     max-width: 1155px;
@@ -1324,7 +1329,7 @@ a i {
     top: -4.3rem;
 }
 .block-service-article-list {
-    padding-top: 6rem;
+    padding-top: 100px;
 }
 .block-service-article-item {
     border-bottom: 2px solid #23A5A5;
@@ -1379,7 +1384,7 @@ a i {
     position: relative;
 }
 .block-policy .logo {
-    margin-top: 6rem;
+    margin-top: 100px;
 }
 .block-policy .logo a {
     display: inline-block;
@@ -1471,7 +1476,7 @@ a i {
 }
 .list-policy li p {
     display: block;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 50px;
     position: relative;
     color: #333;
     margin-bottom: 0;
@@ -1486,7 +1491,7 @@ a i {
 }
 .list-policy li p .icon {
     position: absolute;
-    right: 6rem;
+    right: 100px;
     top: 2rem;
     width: 0;
     height: 0;
@@ -1511,14 +1516,14 @@ a i {
     color: #fff;
 }
 .list-policy li.active ul li {
-    height: 6rem;
+    height: 100px;
     background-color: #23a5a5;
 }
 .list-policy li.active ul li:last-child {
     height: 10rem;
 }
 .list-policy ul li p {
-    padding: 4rem 6rem;
+    padding: 4rem 100px;
     padding-bottom: 0;
 }
 .list-policy ul li:last-child {
@@ -1530,10 +1535,7 @@ a i {
 .list-policy li:hover > p {
     color: #ffaa00;
 }
-.block-appointment {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
+
 .customer-information-title {
     font-weight: bold;
     font-size: 2rem;
@@ -1548,7 +1550,7 @@ a i {
     border: 2px solid #23A5A5;
 }
 .customer-information-conent-block {
-    padding: 6rem;
+    padding: 100px;
 }
 .customer-information-conent-block p {
     margin-top: 8px;
@@ -1607,7 +1609,7 @@ a i {
     min-width: 315px;
 }
 .customer-table-content {
-    padding: 6rem; 
+    padding: 100px; 
     padding-top: 0;
 }
 .customer-table-content table th {
@@ -1749,8 +1751,8 @@ a i {
     color: #333;
 }
 .background-light-primary .title {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .video-wrapper {
@@ -1876,6 +1878,11 @@ a i {
     padding-right: 0;
     padding-top: 0;
 }
+.knowledge-content .content-title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: 100px;
+}
 .list-knowledge .item {
     padding: 5rem;
     padding-bottom: 3rem;
@@ -1981,16 +1988,16 @@ a i {
     line-height: 5.5rem;
     color: #333333;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 100px;
     margin-top: 1rem;
 }
-.block-dental-knowledge .content-title {
+.block .block-title::before-dental-knowledge .content-title {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 3.3rem;
     color: #333333;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 100px;
     margin-top: 1rem;
 }
 .block-dental-knowledge .nav-tabs {
@@ -2044,11 +2051,11 @@ a i {
 .modal.show .modal-dialog {
     background-color: #fff;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12), 0px 12px 24px rgba(0, 0, 0, 0.12), 0px 1px 32px rgba(0, 0, 0, 0.12);
-    padding: 6rem;
+    padding: 100px;
 }
 
 .modal-content.modal-info {
-    padding: 6rem;
+    padding: 100px;
     border:  1px solid #23A5A5;
     /*height: 100vh;*/
     position: relative;
@@ -2082,14 +2089,13 @@ a i {
     font-weight: bold;
 }
 .pd-6 {
-    padding: 6rem;
+    padding: 100px;
 }
 .pd-3 {
     padding: 3rem;
 }
 .list-insurrance .item {
-    padding: 0 3rem;
-    margin-bottom: 6rem;
+    padding: 6rem 6rem;
 }
 .list-insurrance .item a {
     display: block;
@@ -2113,7 +2119,7 @@ a i {
     padding: 0 3rem;
     width: 17.6%;
     margin-right: 3%;
-    margin-bottom: 6rem;
+    margin-bottom: 100px;
 }
 .list-bank .item:nth-child(5n) {
     margin-right: 0;
@@ -2138,6 +2144,9 @@ a i {
 .block .block-title .sub-title {
     text-align: center;
     color: #000000;
+}
+.block-promotion-insurrance {
+    padding-bottom: 4rem;
 }
 .block-promotion-insurrance .sub-title img {
     width: 71px;
@@ -2399,7 +2408,7 @@ a i {
     color: #ffaa00;
     display: block;
    padding: 1rem 4rem;
-   padding-left: 6rem;
+   padding-left: 50px;
    text-transform: uppercase;
 }
 .mobile-nav > ul > li > ul > li {
