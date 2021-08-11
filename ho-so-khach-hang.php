@@ -79,7 +79,7 @@
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">LỊCH HẸN</strong></p>
 							<div class="table-responsive">
-								<table class="table table-bordered table-light mb-5" style="min-width: 1000px !important">
+								<table class="table table-bordered table-light mb-5 " style="min-width: 1000px !important">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐIỀU TRỊ</th>
 										<th class="text-center" width="100px">Thứ</th>
@@ -113,7 +113,7 @@
 									</tr>
 								</table>
 							</div>
-							<div class="table-responsive mt-5 mb-5">
+							<div class="table-responsive mt-5 mb-5 px-15">
 								<table class="table table-bordered table-light"  style="min-width: 1000px !important">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐỊNH KỲ</th>

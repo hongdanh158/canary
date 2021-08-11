@@ -247,7 +247,7 @@
 		margin-top: 0;
 	}
 	.customer-table-content {
-	    padding: 0; 
+	    padding: 15px; 
 	}
 	.list-insurrance .item {
 	    padding: 0 2rem;
@@ -323,6 +323,7 @@
 	}
 }
 @media (max-width: 575px) {
+	
 	.block {
 		padding-bottom: 5rem;
 	}
