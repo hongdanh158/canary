@@ -78,8 +78,8 @@
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">LỊCH HẸN</strong></p>
-							<div class="row">
-								<table class="table table-bordered table-light mb-5">
+							<div class="table-responsive">
+								<table class="table table-bordered table-light mb-5" style="min-width: 1000px !important">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐIỀU TRỊ</th>
 										<th class="text-center" width="100px">Thứ</th>
@@ -112,7 +112,9 @@
 										<td class="text-center align-middle">Nhổ răng khôn</td>
 									</tr>
 								</table>
-								<table class="table table-bordered table-light">
+							</div>
+							<div class="table-responsive mt-5 mb-5">
+								<table class="table table-bordered table-light"  style="min-width: 1000px !important">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐỊNH KỲ</th>
 										<th class="text-center" width="120px">Ngày</th>
@@ -143,7 +145,7 @@
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">HỒ SƠ ĐIỀU TRỊ</strong></p>
-							<div class="row">
+							<div class="row table-responsive">
 								<table class="table table-bordered table-light">
 									<tr>
 										<th class="text-center align-middle" width="100px">NGÀY <br> ĐIỀU TRỊ</th>
