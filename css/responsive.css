@@ -222,6 +222,9 @@
 	.block-service-article-item  .thumbnail  img {
 		width: 100%;
 	}
+	.customer-information-conent img {
+		max-width: 100%;
+	}
 	.customer-information-conent .header-form {
 		padding: 1.5rem;
 		font-size: 1rem;
