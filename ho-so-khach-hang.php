@@ -145,8 +145,8 @@
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">HỒ SƠ ĐIỀU TRỊ</strong></p>
-							<div class="row table-responsive">
-								<table class="table table-bordered table-light">
+							<div class="table-responsive">
+								<table class="table table-bordered table-light" style="min-width:1000px">
 									<tr>
 										<th class="text-center align-middle" width="100px">NGÀY <br> ĐIỀU TRỊ</th>
 										<th class="text-center" width="100px">KÝ HIỆU RĂNG</th>
