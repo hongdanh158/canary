@@ -17,7 +17,7 @@
 		</div>
 		<div class="title-description">Kiến thức nha khoa được tổng hợp qua tư vấn chuyên môn trực tiếp từ các Bác sĩ chuyên gia tại Nha Khoa Viễn Đông về răng và các bộ phận khác trong miệng dành cho khách hàng, bệnh nhân và các anh/chị đồng nghiệp, trợ thủ, sinh viên y khoa.</div>
 		<div class="line"></div>
-		<div class="block-content container row mt-6rem">
+		<div class="block-content container row">
 			<div class="col-md-4 col-12 knowledge-tab border-right-primary-2px">
 				<div class="tab-title">DANH SÁCH</div>
 				<ul class="nav nav-tabs flex-lg-column" id="myTab" role="tablist">

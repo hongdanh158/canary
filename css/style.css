@@ -43,7 +43,7 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1160px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -306,7 +306,7 @@ a i {
     z-index: 99;
 }
 .header .container {
-    max-width: 1300px !important;
+    max-width: 1340px !important;
 }
 .header .top {
     border-bottom: 2px solid #23A5A5;
@@ -630,6 +630,9 @@ a i {
 .slick-slide {
     height: auto;
 }
+.block.block-tree-box .block-title {
+    margin-top: 35px;
+}
 .block-tree-box .box {
     z-index: 99;
     margin-top: -2rem;
@@ -662,6 +665,7 @@ a i {
     padding-bottom: 10rem;
 }
 .block .block-title {
+    width: 100%;
     position: relative;
     font-weight: bold;
     font-size: 4rem;
@@ -675,9 +679,9 @@ a i {
 .block .block-title::before {
     position: absolute;
     content: '';
-    left: 15%;
+    left: calc(50% - 125px);
     bottom: -60px;
-    width: 70%;
+    width: 250px;
     height: 0px;
     border-bottom: 2px solid #333333;
 }
@@ -771,12 +775,17 @@ a i {
     line-height: 22px;
     color: #23A5A5;
     margin-bottom: 15px;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .service-desciption {
     font-size: 1.2rem;
     line-height: 1.5;
     color: #000000;
     margin-bottom: 1rem;
+    height: 36px;
+    overflow: hidden;
 }
 .service-item .btn {
     font-size: 1.2rem;
@@ -845,6 +854,7 @@ a i {
     max-width: 870px;
     margin: 0 auto;
 }
+
 .block-promotion .title-description {
     width: 100%;
     max-width: 850px;
@@ -892,7 +902,7 @@ a i {
     position: absolute;
     top: 40%;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 10;
     opacity: 0;
 }
 .block-content .prev  {
@@ -1013,6 +1023,7 @@ a i {
 }
 .block-partner  {
     background: #F3FFFD;
+    padding-bottom: 5rem !important;
 }
 .block-partner .block-content.container  {
     max-width: 800px;
@@ -1030,7 +1041,7 @@ a i {
             transition: all .25s ease-in-out;
 }
 .block-partner .partner-item .partner-box:hover {
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12);
 }
 .block-partner .partner-item .partner-box a {
     display: block;
@@ -1220,7 +1231,7 @@ a i {
     border-radius: 0;
 }
 .block-certificate-doctor .block-content .next, .block-certificate-doctor .block-content .prev {
-    top: 18%;
+    top: 10%;
 }
 .block-certificate-doctor .block-content .prev {
     left: -3rem;
@@ -1599,11 +1610,16 @@ a i {
     font-style: normal;
     font-size: 0.9rem;
     font-weight: 800;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    display: block;
+    line-height: 1;
 }
 .customer-information-conent .header-form .logo .since {
     font-weight: bold;
     font-size: 0.9rem;
+    display: block;
+
 }
 .customer-information-conent .btn {
     min-width: 315px;
@@ -1706,18 +1722,31 @@ a i {
     color: #fff;
     border-color: #23A5A5;
 }
+.block-library .title {
+    text-align: center;
+}
 .video-library-container {
    max-width: 700px;
    margin: 0 auto;
    margin-bottom: 10rem;
+   position: relative;
 }
 .video-library-container:last-child {
     margin-bottom: 0;
 }
-.video-library-container  {
+.video-library-container .cn-video-wraper {
+    width: 100%;
+    padding-top: 56.25%;
     position: relative;
 }
-.video-library-container .prev, .video-library-container  .next {
+.cn-video-wraper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.video-library-container .prev, .video-library-container .next {
     position: absolute;
     top: 35%;
     z-index: 99999999999;
@@ -1920,6 +1949,7 @@ a i {
     padding-right: 5px;
 }
 .list-knowledge .item .box .mask {
+    cursor: pointer;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1988,8 +2018,10 @@ a i {
     line-height: 5.5rem;
     color: #333333;
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 1rem;
+    margin-bottom: 80px;
+}
+.block-dental-knowledge .block-content {
+    margin-top: 12rem;
 }
 .block .block-title::before-dental-knowledge .content-title {
     font-weight: bold;
@@ -2148,6 +2180,9 @@ a i {
 .block-promotion-insurrance {
     padding-bottom: 4rem;
 }
+.block-promotion-insurrance .container {
+    max-width: 1280px;
+}
 .block-promotion-insurrance .sub-title img {
     width: 71px;
 }
@@ -2167,11 +2202,11 @@ a i {
     margin: 0 auto;
 }
 .trevel-slider .trevel-item {
-    padding: 1.5rem;
+    padding: 0.5rem 2.5rem;
     width: 33.3333%;
 }
 .trevel-slider .trevel-box {
-    padding: 1.5rem;
+    padding: 2.5rem;
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgb(0 0 0 / 16%), 0px 2px 4px rgb(0 0 0 / 12%), 0px 1px 8px rgb(0 0 0 / 10%);
     border-radius: 15px;
@@ -2179,6 +2214,7 @@ a i {
 .trevel-slider .trevel-box .thumbnail, .trevel-slider .trevel-box .thumbnail img {
     display: block;
     width: 100%;
+    border-radius: 10px;
 }
 .trevel-slider .trevel-box .thumbnail {
     margin-bottom: 2rem;
@@ -2206,7 +2242,7 @@ a i {
     right: -10rem;
 }
 .block-promotion-other .block-content {
-    border-bottom: 1px solid #23A5A5;
+    border-bottom: 2px solid #23A5A5;
 }
 .block-promotion-other .block-content:last-child {
     border:  none;
@@ -2438,7 +2474,7 @@ a i {
     bottom: 0 !important ;
 }
 .title-2 {
-    margin-left: 15rem; 
+    margin-left: 9rem; 
     margin-bottom: 4rem; 
     font-size: 2.4rem;
 }
@@ -2454,4 +2490,5 @@ a i {
 }
 .block-promotion-trevel .title-description {
     margin-top: 7rem;
+    font-weight: normal;
 }

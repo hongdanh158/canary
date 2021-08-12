@@ -43,7 +43,6 @@
 		<div class="d-flex justify-content-center">
 			<h2 class="block-title">VÌ SAO NÊN CHỌN <span class="highlight">CANARY ?</span></h2>
 		</div>
-		<div class="line mt-3rem"></div>
 		<div class="block-content row">
 			<div class="col-md-6 col-sm-12">
 				<div class="video-wrapper">

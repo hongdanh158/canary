@@ -34,15 +34,21 @@
 					<span class="next video-slider-next-1"><i class="fal fa-angle-right fa-6x"></i></span>
             		<div class="video-slider-1">
             			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
             			</div>
             			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ki_gs57YISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">ĐÃ SỬ DỤNG DỊCH VỤ: NIỀNG RĂNG</div>
             			</div>
             			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/NGDrVANO2fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
             			</div>
             		</div>
@@ -60,16 +66,22 @@
             		<span class="prev video-slider-prev-2"><i class="fal fa-angle-left fa-6x"></i></span>
 					<span class="next video-slider-next-2"><i class="fal fa-angle-right fa-6x"></i></span>
             		<div class="video-slider-2">
-            			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="video-item">
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
             			</div>
             			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ki_gs57YISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">ĐÃ SỬ DỤNG DỊCH VỤ: NIỀNG RĂNG</div>
             			</div>
             			<div class="video-item">
-            				<iframe width="100%" height="315" src="https://www.youtube.com/embed/NGDrVANO2fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="cn-video-wraper">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1oCQnXJb_Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
             				<div class="video-title">QUY TRÌNH TẨY TRẮNG RĂNG CỦA CHỊ JENNY BÙI TẠI NHA KHOA CANARY</div>
             			</div>
             		</div>

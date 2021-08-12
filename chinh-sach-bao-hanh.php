@@ -37,7 +37,7 @@
 	</section>
 	<section class="block block-policy-detail">
 		<div class="d-flex justify-content-center">
-			<h2 class="block-title mt-6rem">QUY ĐỊNH  <span class="highlight">& THÀNH TOÁN</span></h2>
+			<h2 class="block-title" style="margin-top:0">QUY ĐỊNH  <span class="highlight">& THÀNH TOÁN</span></h2>
 		</div>
 		<div class="block-content container">
 			<ul class="list-policy">

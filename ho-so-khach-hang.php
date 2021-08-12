@@ -12,8 +12,8 @@
 							<div class="row">
 								<div class="col-12"><strong class="customer-id">MÃ HỒ SƠ: NKCNR001</strong></div>
 								<div class="col-12 row">
-									<div class="col-3"><strong>LƯU Ý: </strong></div>
-									<div class="col-9"><textarea class="note"></textarea></div>
+									<div class="col-4"><strong>LƯU Ý: </strong></div>
+									<div class="col-8"><textarea class="note"></textarea></div>
 								</div>
 							</div>
 						</div>
@@ -79,7 +79,7 @@
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">LỊCH HẸN</strong></p>
 							<div class="table-responsive">
-								<table class="table table-bordered table-light mb-5 " style="min-width: 1000px !important">
+								<table class="table table-bordered table-light mb-5" style="width:100; min-width:800px">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐIỀU TRỊ</th>
 										<th class="text-center" width="100px">Thứ</th>
@@ -114,7 +114,7 @@
 								</table>
 							</div>
 							<div class="table-responsive mt-5 mb-5 px-15">
-								<table class="table table-bordered table-light"  style="min-width: 1000px !important">
+								<table class="table table-bordered table-light" style="width:100%;min-width:800px">
 									<tr>
 										<th rowspan="5" class="text-center align-middle" width="200px">LỊCH HẸN ĐỊNH KỲ</th>
 										<th class="text-center" width="120px">Ngày</th>
@@ -139,14 +139,14 @@
 								</table>
 							</div>
 							<div class="row text-center">
-								<p><img src="images/doc-ten-rang 1.png" alt=""></p>
+								<p><img src="images/doc-ten-rang 1.png" alt="" style="width:100%"></p>
 								<p class="text-center">Sơ đồ răng người</p>
 							</div>					
 						</div>
 						<div class="col-md-12 customer-table-content">
 							<p class="header-title"><strong class="highlight">HỒ SƠ ĐIỀU TRỊ</strong></p>
 							<div class="table-responsive">
-								<table class="table table-bordered table-light" style="min-width:1000px">
+								<table class="table table-bordered table-light" style="width:100%;min-width:800px">
 									<tr>
 										<th class="text-center align-middle" width="100px">NGÀY <br> ĐIỀU TRỊ</th>
 										<th class="text-center" width="100px">KÝ HIỆU RĂNG</th>

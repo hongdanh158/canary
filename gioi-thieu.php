@@ -132,7 +132,7 @@
 			<h2 class="block-title mt-6rem">TIN TỨC VỀ <span class="highlight">CANARY</span></h2>
 		</div>
 		<div class="line"></div>
-		<div class="block-content container mb-6rem">
+		<div class="block-content container">
 			<span class="prev promotion-slider-prev"><i class="fal fa-angle-left fa-6x"></i></span>
 			<span class="next promotion-slider-next"><i class="fal fa-angle-right fa-6x"></i></span>
 			<div class="promotion-slider">
