@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css"/>
 	<link rel="stylesheet" href="js/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
 	<link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css?v=7"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=8"/>
 	<link rel="stylesheet" type="text/css" href="css/responsive.css?v=8"/>
 	<script src="js/jquery.min.js"></script>
 	<link rel="stylesheet" href="js/video/video.css?v=7">

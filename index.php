@@ -40,7 +40,7 @@
 				<div class="text"  style="padding-left: 2rem;">KHÁCH HÀNG</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-center mt-6rem">
+		<div class="d-flex justify-content-center">
 			<h2 class="block-title">VÌ SAO NÊN CHỌN <span class="highlight">CANARY ?</span></h2>
 		</div>
 		<div class="line mt-3rem"></div>
